@@ -22,6 +22,7 @@ hyprlock
 hyprsunset
 hyprshot
 hyprpicker
+hyprpolkitagent
 swaync
 blueman-applet
 waybar
