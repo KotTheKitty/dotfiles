@@ -25,3 +25,6 @@ fastfetch
 PS1='\[\e[32;1m\]-\A-\[\e[31;1m\] $? \[\e[0m\e[36;1m\]=\[\e[35;1m\]\u\[\e[36;1m\]@\[\e[35;1m\]\h\[\e[36;1m\]= \[\e[33;1m\]\w \$\[\e[0m\] '
 
 eval "$(zoxide init bash)"
+
+# Created by `pipx` on 2026-03-22 01:23:54
+export PATH="$PATH:/home/kot/.local/bin"
