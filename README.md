@@ -12,19 +12,22 @@ nwg-look
 kitty
 thunar
 rofi
-floorp-bin
-clipvault
+floorp-bin (aur)
+clipvault (aur)
 wl-clipboard
 
 hyprland
 hypridle
-hyprlock
+hyprlock (aur)
 hyprsunset
-hyprshot
+hyprshot (aur)
 hyprpicker
 hyprpolkitagent
+xdg-desktop-portal-hyprland
 swaync
-blueman-applet
+blueman-applet (from blueman)
 waybar
 swww
 ```
+
+Running `xdg-user-dirs-update` may be a good idea alongside installing non-required packages.
