@@ -37,3 +37,4 @@ xdg-utils
 ```
 
 Running `xdg-user-dirs-update` may be a good idea alongside installing non-required packages.
+Also see [xdg-utils](https://wiki.archlinux.org/title/Xdg-utils) on the Arch Wiki.
