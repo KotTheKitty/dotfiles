@@ -4,7 +4,7 @@ This is kot's dotfiles, useful for me when sharing between devices and available
 
 Private assets will be missing, but these are replacable with your own.
 
-### Useful programs:
+### Useful programs and packages:
 
 ```
 nwg-look
@@ -15,6 +15,10 @@ rofi
 floorp-bin (aur)
 clipvault (aur)
 wl-clipboard
+swaync
+blueman-applet (from blueman)
+waybar
+swww
 
 hyprland
 hypridle
@@ -24,10 +28,12 @@ hyprshot (aur)
 hyprpicker
 hyprpolkitagent
 xdg-desktop-portal-hyprland
-swaync
-blueman-applet (from blueman)
-waybar
-swww
+
+fastfetch
+zoxide
+xdg-user-dirs
+
+xdg-utils
 ```
 
 Running `xdg-user-dirs-update` may be a good idea alongside installing non-required packages.
