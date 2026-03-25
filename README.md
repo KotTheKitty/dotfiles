@@ -18,7 +18,7 @@ wl-clipboard
 swaync
 blueman-applet (from blueman)
 waybar
-swww
+awww
 
 hyprland
 hypridle
