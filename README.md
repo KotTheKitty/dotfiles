@@ -31,8 +31,8 @@ xdg-desktop-portal-hyprland
 
 fastfetch
 zoxide
-xdg-user-dirs
 
+xdg-user-dirs
 xdg-utils
 ```
 
