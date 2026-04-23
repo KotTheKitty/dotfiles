@@ -26,6 +26,7 @@ hyprlock (aur)
 hyprsunset
 hyprshot (aur)
 hyprpicker
+hyprqt6engine (aur)
 hyprpolkitagent
 xdg-desktop-portal-hyprland
 
