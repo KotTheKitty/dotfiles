@@ -10,7 +10,7 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 PS1='[\u@\h \W]\$ '
-
+alias sex='echo "hitler!?!?!?"'
 
 #PS1='\A =\u@\h= \w \$ '
 PS2='> '
