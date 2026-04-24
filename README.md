@@ -31,6 +31,7 @@ hyprpicker
 hyprqt6engine (aur)
 hyprpolkitagent
 xdg-desktop-portal-hyprland
+xdg-desktop-portal-kde
 
 fastfetch
 zoxide
