@@ -4,6 +4,8 @@ This is kot's dotfiles, useful for me when sharing between devices and available
 
 Private assets will be missing, but these are replacable with your own.
 
+Some paths are absolute due to incompatibility (such as in hyprqt6engine.conf). Please verify and change them.
+
 ### Useful programs and packages:
 
 ```
