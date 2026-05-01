@@ -1,25 +1,29 @@
-hl.on("hyprland.start", function ()
-  hl.exec_cmd("systemctl --user start hyprpolkitagent")
-
-  hl.exec_cmd("waybar")
-  hl.exec_cmd("swaync")
-  hl.exec_cmd("blueman-applet")
-  hl.exec_cmd("hypridle & hyprsunset & awww-daemon")
-  
-  hl.exec_cmd("discord & signal-desktop")
-
-end)
-
 hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
 hl.env("XDG_SESSION_TYPE", "wayland")
 hl.env("XDG_SESSION_DESKTOP", "Hyprland")
-
 hl.env("HYPRCURSOR_SIZE", "24")
 hl.env("XCURSOR_SIZE", "24")
 
 hl.env("QT_AUTO_SCREEN_SCALE_FACTOR", "1")
 hl.env("QT_QPA_PLATFORM", "wayland;xcb")
 hl.env("QT_WAYLAND_DISABLE_WINDOWDECORATION", "1")
-hl.env("QT_QPA_PLATFORMTHEME", "qt5ct")
+-- hl.env("QT_QPA_PLATFORMTHEME", "qt5ct")
+hl.env("QT_QPA_PLATFORMTHEME", "hyprqt6engine")
 hl.env("GDK_BACKEND", "wayland;x11;*")
 hl.env("SDL_VIDEODRIVER", "wayland")
+
+hl.on("hyprland.start", function ()
+    hl.exec_cmd("systemctl --user start hyprpolkitagent")
+
+    hl.exec_cmd("waybar & swaync")
+    hl.exec_cmd("hypridle & hyprsunset & awww-daemon & blueman-applet")
+
+    hl.exec_cmd("discord & signal-desktop")
+end)
+
+hl.on("config.reloaded", function ()
+    hl.exec_cmd("awww img '/home/kot/Images/assets/bg/413289066_1030075811408400_8354114380093909779_n.jpg'")
+    hl.exec_cmd("awww img -o eDP-1 '/home/kot/Images/assets/bg/413289066_1030075811408400_8354114380093909779_n.jpg'")
+    hl.exec_cmd("awww img -o DP-2 '/home/kot/Images/assets/bg/n/1600272470.finalcord_zoru-lofi.gif'")
+    hl.exec_cmd("awww img -o DP-3 '/home/kot/Images/assets/bg/4562118-pinkpoffinz-puffi_(pinkpoffinz)-canid-canine-domestic_cat-felid-feline-felis-fox-hybrid-mammal.jpg'")
+end)
