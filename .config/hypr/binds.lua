@@ -3,12 +3,12 @@ local filemanager = "thunar"
 local menu = "rofi -show combi -modes combi -combi-modes \"window,run,drun\""
 local browser = "floorp"
 -- $screenshotpath = (xdg-user-dir PICTURES)/CopiesÉcran/$(date +'%Y-%m-%d-%H%M%S-%3N_grim.png')"
-local screenshotfolder = os.getenv("XDG_PICTURES") .. "/CopiesÉcran"
+local screenshotfolder = io.popen('xdg-user-dir PICTURES'):read() .. "/CopiesÉcran"
 local imageviewer = "ristretto"
 local musicplayer = "beefweb_mpris"
 local texteditor = "mousepad"
 
-hl.bind("ALT, SPACE", hl.dsp.exec_cmd(menu))
+hl.bind("ALT + SPACE", hl.dsp.exec_cmd(menu))
 hl.bind("SUPER + R", hl.dsp.exec_cmd(menu))
 hl.bind("SUPER + SPACE", hl.dsp.exec_cmd(menu))
 hl.bind("SUPER + RETURN", hl.dsp.exec_cmd(terminal))
@@ -35,8 +35,8 @@ hl.bind("SUPER + SHIFT + ALT + E", hl.dsp.exec_cmd("xdg-open https://e621.net/fa
 hl.bind("SUPER + V", hl.dsp.exec_cmd("clipvault list | rofi -dmenu -display-columns 2 | clipvault get | wl-copy"))
 hl.bind("SUPER + D", hl.dsp.exec_cmd("swaync-client -t"))
 hl.bind("PRINT", hl.dsp.exec_cmd("hyprshot -z -m region -o $screenshotfolder"))
-hl.bind("CTRL, Print", hl.dsp.exec_cmd("hyprshot -m active -m window -o $screenshotfolder"))
-hl.bind("SHIFT, Print", hl.dsp.exec_cmd("hyprshot -m active -m output -o $screenshotfolder"))
+hl.bind("CTRL + Print", hl.dsp.exec_cmd("hyprshot -m active -m window -o $screenshotfolder"))
+hl.bind("SHIFT + Print", hl.dsp.exec_cmd("hyprshot -m active -m output -o $screenshotfolder"))
 
 hl.bind("SUPER + F4", hl.dsp.exec_cmd("systemctl suspend"))
 hl.bind("SUPER + L", hl.dsp.exec_cmd("loginctl lock-session; pidof hyprlock || hyprlock & sleep 1; hyprctl dispatch dpms off"))
@@ -51,17 +51,17 @@ hl.bind("SUPER + ALT + left", hl.dsp.exec_cmd("playerctl previous"), { locked = 
 hl.bind("SUPER + ALT + right", hl.dsp.exec_cmd("playerctl next"), { locked = true })
 hl.bind("SUPER + ALT + down", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 
-hl.bind("SUPER + SHIFT + up", hl.dsp.move({ direction = "up" }))
-hl.bind("SUPER + SHIFT + down", hl.dsp.move({ direction = "down" }))
-hl.bind("SUPER + SHIFT + left", hl.dsp.move({ direction = "left" }))
-hl.bind("SUPER + SHIFT + right", hl.dsp.move({ direction = "right" }))
+hl.bind("SUPER + SHIFT + up", hl.dsp.window.move({ direction = "up" }))
+hl.bind("SUPER + SHIFT + down", hl.dsp.window.move({ direction = "down" }))
+hl.bind("SUPER + SHIFT + left", hl.dsp.window.move({ direction = "left" }))
+hl.bind("SUPER + SHIFT + right", hl.dsp.window.move({ direction = "right" }))
 hl.bind("SUPER + mouse:272", hl.dsp.window.drag(),   { mouse = true })
 hl.bind("SUPER + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
-hl.bind("ALT, TAB, cyclenext, visible tiled")
-hl.bind("SUPER + TAB, cyclenext, visible floating")
-hl.bind("CTRL_ALT, TAB, cyclenext, visible tiled prev")
-hl.bind("SUPER_CTRL, TAB, cyclenext, visible floating prev")
+-- hl.bind("ALT + TAB, cyclenext, visible tiled")
+-- hl.bind("SUPER + TAB, cyclenext, visible floating")
+-- hl.bind("CTRL_ALT + TAB, cyclenext, visible tiled prev")
+-- hl.bind("SUPER_CTRL + TAB, cyclenext, visible floating prev")
 hl.bind("SUPER + left", hl.dsp.focus({ direction = "left" }))
 hl.bind("SUPER + right", hl.dsp.focus({ direction = "right" }))
 hl.bind("SUPER + up", hl.dsp.focus({ direction = "up" }))

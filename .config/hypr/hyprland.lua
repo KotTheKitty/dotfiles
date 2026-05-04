@@ -1,0 +1,7 @@
+require("default")
+require("autoboot")
+require("appearance")
+require("binds")
+require("display")
+require("general")
+require("input")

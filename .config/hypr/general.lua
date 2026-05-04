@@ -1,6 +1,6 @@
 hl.config({
     general = {
-        locale = "fr_CA"
+        locale = "fr_CA",
         resize_on_border = false,
         allow_tearing = true,
         layout = "dwindle",
@@ -35,7 +35,7 @@ hl.config({
         enable_anr_dialog = true,
         size_limits_tiled = false,
         disable_watchdog_warning = false,
-        vfr = true,
+        -- vfr = true,
     },
 
     xwayland = {

@@ -14,7 +14,7 @@ hl.config({
             disable_while_typing = true,
             natural_scroll = false,
         }
-    }
+    },
 })
 
 hl.device({
@@ -49,7 +49,7 @@ hl.config({
     binds = {
         disable_keybind_grabbing = false,
         drag_threshold = 20,
-    }
+    },
 
     cursor = {
         min_refresh_rate = 5,
@@ -57,5 +57,5 @@ hl.config({
         no_warps = false,
         hide_on_key_press = false,
         warp_back_after_non_mouse_input = false,
-    }
+    },
 })
