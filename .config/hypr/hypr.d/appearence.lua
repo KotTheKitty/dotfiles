@@ -1,6 +1,5 @@
 hl.config({
     misc = {
-        --font_family = Sans
         font_family = "JetBrains Mono",
     },
 
