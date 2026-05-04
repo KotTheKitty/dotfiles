@@ -55,7 +55,7 @@ hl.bind("SUPER + SHIFT + up", hl.dsp.window.move({ direction = "up" }))
 hl.bind("SUPER + SHIFT + down", hl.dsp.window.move({ direction = "down" }))
 hl.bind("SUPER + SHIFT + left", hl.dsp.window.move({ direction = "left" }))
 hl.bind("SUPER + SHIFT + right", hl.dsp.window.move({ direction = "right" }))
-hl.bind("SUPER + mouse:272", hl.dsp.window.drag(),   { mouse = true })
+hl.bind("SUPER + mouse:272", hl.dsp.window.drag(), { mouse = true })
 hl.bind("SUPER + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
 -- hl.bind("ALT + TAB, cyclenext, visible tiled")
