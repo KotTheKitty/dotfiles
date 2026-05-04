@@ -1,0 +1,60 @@
+hl.config({
+    input = {
+        kb_layout = "us,ca",
+        kb_variant = ",multix",
+        numlock_by_default = false,
+        repeat_rate = 25,
+        repeat_delay = 500,
+
+        sensitivity = 0,
+        accel_profile = "flat",
+        follow_mouse = 1,
+
+        touchpad = {
+            disable_while_typing = true,
+        }
+    }
+})
+
+hl.device({
+    name = "logitech-g502-hero-gaming-mouse",
+    sensitivity = -0.6,
+    accel_profile = "flat",
+})
+
+hl.device({
+    name = "synaptics-tm3149-002",
+    enabled = false,
+    sensitivity = 0.5,
+    -- accel_profile = "adaptive",
+    accel_profile = "flat",
+})
+
+hl.device({
+    name = "tpps/2-ibm-trackpoint",
+    sensitivity = 0.5,
+})
+
+hl.device({
+    name = "at-translated-set-2-keyboard",
+})
+
+hl.device({
+    name = "google-pixel-7a-mouse",
+    sensitivity = 0,
+})
+
+hl.config({
+    binds = {
+        disable_keybind_grabbing = false,
+        drag_threshold = 20,
+    }
+
+    cursor = {
+        min_refresh_rate = 5,
+        hotspot_padding = 1,
+        no_warps = false,
+        hide_on_key_press = false,
+        warp_back_after_non_mouse_input = false,
+    }
+})
