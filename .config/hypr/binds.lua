@@ -8,6 +8,7 @@ local imageviewer = "ristretto"
 local musicplayer = "beefweb_mpris"
 local texteditor = "mousepad"
 
+-- TODO: Replace binds with Noctalia
 hl.bind("ALT + SPACE", hl.dsp.exec_cmd(menu))
 hl.bind("SUPER + R", hl.dsp.exec_cmd(menu))
 hl.bind("SUPER + SPACE", hl.dsp.exec_cmd(menu))

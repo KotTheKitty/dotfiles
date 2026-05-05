@@ -14,21 +14,20 @@ nwg-look
 kitty
 thunar
 rofi
-floorp-bin (aur)
-clipvault (aur)
+floorp-bin (AUR)
+clipvault (AUR)
 wl-clipboard
 swaync
-blueman-applet (from blueman)
-waybar
+noctalia-shell (AUR)
 awww
 
 hyprland
 hypridle
-hyprlock (aur)
+hyprlock (AUR)
 hyprsunset
-hyprshot (aur)
+hyprshot (AUR)
 hyprpicker
-hyprqt6engine (aur)
+qt6ct
 hyprpolkitagent
 xdg-desktop-portal-hyprland
 xdg-desktop-portal-kde
@@ -39,5 +38,3 @@ zoxide
 xdg-user-dirs
 xdg-utils
 ```
-
-What if a cat had kitties? Well, the kitty cat kitties. Cat?
