@@ -19,7 +19,7 @@ hl.on("hyprland.start", function ()
     hl.exec_cmd("qs -c noctalia-shell")
     hl.exec_cmd("swaync & hypridle & hyprsunset & awww-daemon") -- & blueman-applet")
 
-    hl.exec_cmd("discord & signal-desktop")
+    hl.exec_cmd("signal-desktop")
     hl.exec_cmd("easyeffects -w")
 end)
 

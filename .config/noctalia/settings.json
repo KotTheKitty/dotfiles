@@ -384,7 +384,7 @@
         "autoStartAuth": true,
         "avatarImage": "/home/kot/.face",
         "boxRadiusRatio": 1,
-        "clockFormat": "yyyy-MM-dd HHhmmhss",
+        "clockFormat": "yyyy-MM-dd HH:mm:ss",
         "clockStyle": "custom",
         "compactLockScreen": false,
         "dimmerOpacity": 0,
@@ -490,7 +490,7 @@
         "bluetoothRssiPollIntervalMs": 60000,
         "bluetoothRssiPollingEnabled": false,
         "disableDiscoverability": false,
-        "networkPanelView": "wifi",
+        "networkPanelView": "ethernet",
         "wifiDetailsViewMode": "grid"
     },
     "nightLight": {
@@ -586,7 +586,7 @@
             },
             {
                 "action": "reboot",
-                "command": "",
+                "command": "hyprshutdown && systemctl reboot",
                 "countdownEnabled": true,
                 "enabled": true,
                 "keybind": "3"
@@ -600,21 +600,21 @@
             },
             {
                 "action": "shutdown",
-                "command": "",
+                "command": "hyprshutdown && systemctl poweroff",
                 "countdownEnabled": true,
                 "enabled": true,
                 "keybind": "5"
             },
             {
                 "action": "rebootToUefi",
-                "command": "",
+                "command": "hyprshutdown && systemctl reboot --firmware-setup",
                 "countdownEnabled": true,
                 "enabled": true,
                 "keybind": "6"
             },
             {
                 "action": "userspaceReboot",
-                "command": "",
+                "command": "hyprshutdown && systemctl soft-reboot",
                 "countdownEnabled": true,
                 "enabled": true,
                 "keybind": "7"
