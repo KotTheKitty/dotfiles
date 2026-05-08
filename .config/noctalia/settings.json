@@ -19,7 +19,8 @@
         "overviewLayer": false,
         "pinnedApps": [
             "kitty",
-            "discord"
+            "discord",
+            "steam"
         ],
         "position": "center",
         "screenshotAnnotationTool": "",
@@ -32,7 +33,7 @@
     "audio": {
         "mprisBlacklist": [
         ],
-        "preferredPlayer": "beefweb-mpris",
+        "preferredPlayer": "beefweb_mpris",
         "spectrumFrameRate": 60,
         "spectrumMirrored": false,
         "visualizerType": "wave",
