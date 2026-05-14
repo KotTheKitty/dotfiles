@@ -16,8 +16,8 @@ hl.on("hyprland.start", function ()
     hl.exec_cmd("systemctl --user start hyprpolkitagent")
 
     -- hl.exec_cmd("waybar")
-    hl.exec_cmd("qs -c noctalia-shell")
-    hl.exec_cmd("swaync & hypridle & hyprsunset & awww-daemon & niri-screen-time -daemon") -- & blueman-applet")
+    hl.exec_cmd("exec-once = dms run")
+    hl.exec_cmd("hypridle & hyprsunset & awww-daemon & niri-screen-time -daemon")
 
     hl.exec_cmd("signal-desktop")
     hl.exec_cmd("easyeffects -w")

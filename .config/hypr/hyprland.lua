@@ -1,7 +1,0 @@
-require("default")
-require("display")
-require("appearance")
-require("autoboot")
-require("input")
-require("binds")
-require("general")
