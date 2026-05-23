@@ -1,0 +1,11 @@
+[Event/inputcapturestarted]
+Action=Popup|Sound
+Sound=dialog-information
+
+[Event/remotedesktopstarted]
+Action=Popup|Sound
+Sound=dialog-information
+
+[Event/screencastfailure]
+Action=Popup|Sound
+Sound=dialog-error

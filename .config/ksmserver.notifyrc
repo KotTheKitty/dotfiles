@@ -1,0 +1,7 @@
+[Event/locked]
+Action=None|Sound
+Sound=desktop-logout-short
+
+[Event/unlocked]
+Action=None|Sound
+Sound=desktop-login-short

@@ -1,0 +1,3 @@
+[Event/akonadi-resource-broken]
+Action=Popup|Sound
+Sound=dialog-error-serious

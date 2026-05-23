@@ -1,0 +1,3 @@
+[Event/recordingSaved]
+Action=Popup|Sound
+Sound=screenshot

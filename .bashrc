@@ -12,6 +12,7 @@ alias egrep='egrep --color=auto'
 #PS1='[\u@\h \W]\$ '
 alias sex='echo "hitler!?!?!?"'
 alias removeorphans='sudo pacman -Rns $(pacman -Qdtq)'
+alias clearpacmancache='sudo pacman -Scc'
 alias cd='z'
 
 #PS1='\A =\u@\h= \w \$ '

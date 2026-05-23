@@ -1,0 +1,22 @@
+[General]
+autoSaveImage=true
+clipboardGroup=PostScreenshotCopyImage
+useReleaseToCapture=true
+
+[GuiConfig]
+includeDecorations=false
+includeShadow=false
+quitAfterSaveCopyExport=true
+videoIncludePointer=false
+
+[ImageSave]
+imageCompressionQuality=100
+imageFilenameTemplate=Plasma_<yyyy><MM><dd>_<HH><mm><ss>_<title>
+imageSaveLocation=file:///home/kot/Images/CopiesEcran
+lastImageSaveLocation=file:///home/kot/Images/CopiesEcran/Plasma_20260523_001052.png
+translatedScreenshotsFolder=Copies d'écran
+
+[VideoSave]
+translatedScreencastsFolder=Copies d'écran
+videoFilenameTemplate=Plasma_<yyyy><MM><dd>_<HH><mm><ss>_<title>
+videoSaveLocation=file:///home/kot/Vidéos/CopiesEcran
