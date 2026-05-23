@@ -188,7 +188,13 @@ popupHeight=451
 popupWidth=560
 
 [Containments][121][Applets][139][Configuration][Appearance]
+dateFormat=longDate
 fontWeight=400
+showSeconds=Always
+
+[Containments][121][Applets][139][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
 
 [Containments][121][General]
 AppletOrder=122;123;124;125;126;139
@@ -336,7 +342,13 @@ popupHeight=451
 popupWidth=560
 
 [Containments][190][Applets][213][Configuration][Appearance]
+dateFormat=longDate
 fontWeight=400
+showSeconds=Always
+
+[Containments][190][Applets][213][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
 
 [Containments][190][General]
 AppletOrder=191;192;193;194;195;213
