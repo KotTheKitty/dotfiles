@@ -136,11 +136,12 @@ frameContrast=0.2
 [KFileDialog Settings]
 Allow Expansion=false
 Automatically select filename extension=true
-Breadcrumb Navigation=true
+Breadcrumb Navigation=false
 Decoration position=2
+Preview Width=216
 Show Full Path=false
 Show Inline Previews=true
-Show Preview=false
+Show Preview=true
 Show Speedbar=true
 Show hidden files=true
 Sort by=Name
@@ -148,7 +149,7 @@ Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=175
-View Style=DetailTree
+View Style=Detail
 
 [PreviewSettings]
 EnableRemoteFolderThumbnail=false

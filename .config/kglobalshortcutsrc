@@ -7,14 +7,14 @@ Switch keyboard layout to Anglais (US)=none,none,Passer à la disposition de cla
 Switch keyboard layout to Français (Canada)=none,none,Passer à la disposition de clavier Français (Canada)
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Basculer vers la dernière disposition de clavier
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Passer à la disposition de clavier suivante
-_k_friendly_name=Changeur de disposition de clavier
+_k_friendly_name=Commutateur de dispositions de clavier
 
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Activer ou désactiver le lecteur d'écran
 _k_friendly_name=Accessibilité
 
 [kmix]
-_k_friendly_name=Volume audio
+_k_friendly_name=KMix
 decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Diminuer le volume du microphone
 decrease_volume=Volume Down,Volume Down,Diminuer le volume
 decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Diminuer le volume de 1 %
@@ -26,14 +26,14 @@ mute=Volume Mute,Volume Mute,Muet
 
 [ksmserver]
 Halt Without Confirmation=,,Éteindre sans confirmation
-Lock Session=Meta+L\tScreensaver,Meta+L\tScreensaver,Lock Session
+Lock Session=Meta+L\tScreensaver,Meta+L\tScreensaver,Verrouiller la session
 Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Afficher l'écran de déconnexion
 Log Out Without Confirmation=,,Se déconnecter sans confirmation
 LogOut=,,Se déconnecter
 Reboot=,,Redémarrer
 Reboot Without Confirmation=,,Redémarrer sans confirmation
 Shut Down=,,Éteindre
-_k_friendly_name=Session Management
+_k_friendly_name=Gestion de sessions
 
 [kwin]
 Activate Window Demanding Attention=Meta+Ctrl+A,Meta+Ctrl+A,Activer une fenêtre réclamant de l'attention
@@ -249,6 +249,7 @@ activate task manager entry 6=none,Meta+6,Activer l'entrée du gestionnaire de t
 activate task manager entry 7=none,Meta+7,Activer l'entrée du gestionnaire de tâches 7
 activate task manager entry 8=none,Meta+8,Activer l'entrée du gestionnaire de tâches 8
 activate task manager entry 9=none,Meta+9,Activer l'entrée du gestionnaire de tâches 9
+activate widget 218=,none,Activer le composant graphique Gestionnaire de bureaux
 activate widget 254=,none,Activer le composant graphique Gestionnaire de tâches uniquement par icônes
 activate widget 255=,none,Activer le composant graphique Menu des applications
 clear-history=,,Effacer l'historique du presse-papier
