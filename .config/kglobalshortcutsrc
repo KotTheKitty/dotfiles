@@ -13,6 +13,14 @@ _k_friendly_name=Commutateur de dispositions de clavier
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Activer ou désactiver le lecteur d'écran
 _k_friendly_name=Accessibilité
 
+[kalarm]
+_k_friendly_name=KAlarm
+newAudio=none,none,Nouvelle alarme audio
+newCommand=none,none,Nouvelle alarme par une commande
+newDisplay=none,none,Nouvelle alarme affichée
+newEmail=none,none,Nouvelle alarme par courriel
+stopAudio=none,none,Arrêter de lire
+
 [kmix]
 _k_friendly_name=KMix
 decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Diminuer le volume du microphone
@@ -250,6 +258,7 @@ activate task manager entry 7=none,Meta+7,Activer l'entrée du gestionnaire de t
 activate task manager entry 8=none,Meta+8,Activer l'entrée du gestionnaire de tâches 8
 activate task manager entry 9=none,Meta+9,Activer l'entrée du gestionnaire de tâches 9
 activate widget 218=,none,Activer le composant graphique Gestionnaire de bureaux
+activate widget 245=,none,Activer le composant graphique Menu global
 activate widget 254=,none,Activer le composant graphique Gestionnaire de tâches uniquement par icônes
 activate widget 255=,none,Activer le composant graphique Menu des applications
 clear-history=,,Effacer l'historique du presse-papier

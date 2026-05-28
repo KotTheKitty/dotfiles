@@ -31,6 +31,7 @@ NightTemperature=1000
 
 [Plugins]
 desktopchangeosdEnabled=true
+gamecontrollerEnabled=true
 magiclampEnabled=true
 squashEnabled=false
 

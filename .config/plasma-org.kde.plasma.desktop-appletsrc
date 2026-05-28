@@ -491,6 +491,9 @@ plugin=org.kde.plasma.mediacontroller
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
+[Containments][256][Applets][264][Applets][280][Configuration][General]
+showNumberOfConnectedDevices=true
+
 [Containments][256][Applets][264][Applets][283]
 immutability=1
 plugin=org.kde.plasma.addons.katesessions
@@ -557,3 +560,4 @@ useMinViewWidth=false
 
 [ScreenMapping]
 itemsOnDisabledScreens=
+screenMapping=

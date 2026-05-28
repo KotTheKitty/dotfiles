@@ -8282,6 +8282,18 @@ themeswitcher checkbutton.dark {
   background-color: #1e1e1e;
 }
 
+decoration,
+decoration:backdrop,
+.csd.popup decoration,
+.fullscreen decoration,
+.maximized decoration,
+.tiled decoration,
+.tiled decoration:backdrop {
+  box-shadow: none;
+  margin: 0;
+  border-radius: 5px;
+}
+
 /* GTK NAMED COLORS
    ----------------
    use responsibly! */
