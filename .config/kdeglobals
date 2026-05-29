@@ -126,6 +126,7 @@ UseSystemBell=true
 XftAntialias=true
 XftHintStyle=hintfull
 XftSubPixel=none
+fixed=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 font=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 menuFont=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 smallestReadableFont=Rubik,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
