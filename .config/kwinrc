@@ -11,10 +11,6 @@ EdgeBarrier=0
 BlurStrength=5
 NoiseStrength=0
 
-[Effect-overview]
-BorderActivate=9
-GridBorderActivate=7
-
 [Effect-shakecursor]
 Magnification=10
 
@@ -30,6 +26,7 @@ Active=true
 NightTemperature=1000
 
 [Plugins]
+blurEnabled=true
 desktopchangeosdEnabled=true
 gamecontrollerEnabled=true
 magiclampEnabled=true
@@ -57,8 +54,10 @@ EnablePrimarySelection=false
 [Windows]
 CenterSnapZone=20
 DelayFocusInterval=500
-ElectricBorderCooldown=125
+ElectricBorderCooldown=250
 ElectricBorderDelay=0
+ElectricBorders=1
+FocusPolicy=FocusFollowsMouse
 RollOverDesktops=true
 
 [Windows_HDR]

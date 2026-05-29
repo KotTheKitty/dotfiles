@@ -5,4 +5,5 @@ Seen=true
 Seen=true
 
 [Notifications]
+LowPriorityHistory=true
 PopupPosition=BottomCenter
