@@ -282,7 +282,6 @@ toggle do not disturb=,,Basculer « Ne pas déranger »
 ActiveWindowScreenShot=Ctrl+Print
 CurrentMonitorScreenShot=Shift+Print
 FullScreenScreenShot=Ctrl+Shift+Print
-OpenWithoutScreenshot=
 RecordRegion=Meta+Print\tMeta+R
 RecordScreen=Meta+Shift+Print
 RecordWindow=Meta+Ctrl+Print

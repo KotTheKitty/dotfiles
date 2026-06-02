@@ -550,6 +550,23 @@ DialogWidth=810
 [Containments][281][General]
 AppletOrder=282
 
+[Containments][285]
+activityId=c44feb2e-ccdc-426f-bcaf-a64fd11ac137
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][285][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][285][Wallpaper][org.kde.image][General]
+Image=file:///home/kot/Images/82e0b622240ce4f4a215ae0bda8947bb.png
+SlidePaths=/home/kot/.local/share/wallpapers/,/usr/share/wallpapers/
+
 [Containments241Appletsts][260][Configuration][General]
 defaultUrl=https://www.imood.com/dashboard
 favIcon=https://kde.org/favicon.ico
