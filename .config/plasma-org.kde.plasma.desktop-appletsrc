@@ -147,7 +147,7 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][121][Applets][255][Configuration]
-popupHeight=646
+popupHeight=602
 popupWidth=312
 
 [Containments][121][Applets][255][Configuration][ConfigDialog]
@@ -379,7 +379,7 @@ immutability=1
 plugin=org.kde.plasma.webbrowser
 
 [Containments][241][Applets][260][Configuration]
-popupHeight=1079
+popupHeight=1018
 popupWidth=517
 
 [Containments][241][Applets][260][Configuration][ConfigDialog]
