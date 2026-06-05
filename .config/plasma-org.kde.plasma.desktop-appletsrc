@@ -6,6 +6,7 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][119]
+ItemGeometries-1920x1080=
 ItemGeometries-2560x1440=
 ItemGeometriesHorizontal=
 activityId=c44feb2e-ccdc-426f-bcaf-a64fd11ac137
@@ -21,12 +22,13 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][119][Wallpaper][org.kde.image][General]
-Image=file:///home/kot/Images/assets/bg/plasma_localsharewallpapers/landscape_artifyber/
+Image=file:///home/kot/Images/82e0b622240ce4f4a215ae0bda8947bb.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][120]
 ItemGeometries-1050x1680=
 ItemGeometries-1680x1050=
+ItemGeometries-2560x1440=
 ItemGeometriesHorizontal=
 ItemGeometriesVertical=
 activityId=c44feb2e-ccdc-426f-bcaf-a64fd11ac137
@@ -42,14 +44,14 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][120][Wallpaper][org.kde.image][General]
-Image=file:///home/kot/.local/share/wallpapers/portrait_mix/
+Image=file:///home/kot/Images/assets/bg/plasma_localsharewallpapers/landscape_artifyber/
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][121]
 activityId=
 formfactor=2
 immutability=1
-lastScreen=0
+lastScreen=1
 location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
@@ -147,7 +149,7 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][121][Applets][255][Configuration]
-popupHeight=602
+popupHeight=646
 popupWidth=312
 
 [Containments][121][Applets][255][Configuration][ConfigDialog]
@@ -165,7 +167,7 @@ AppletOrder=255;254
 activityId=
 formfactor=2
 immutability=1
-lastScreen=1
+lastScreen=2
 location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
@@ -340,7 +342,7 @@ AppletOrder=217;218;219;240;220;221;239
 activityId=
 formfactor=2
 immutability=1
-lastScreen=0
+lastScreen=1
 location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
@@ -400,7 +402,7 @@ AppletOrder=260;244;246;245
 activityId=
 formfactor=2
 immutability=1
-lastScreen=0
+lastScreen=1
 location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
@@ -522,7 +524,7 @@ AppletOrder=259;264
 activityId=
 formfactor=2
 immutability=1
-lastScreen=0
+lastScreen=1
 location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
@@ -551,6 +553,8 @@ DialogWidth=810
 AppletOrder=282
 
 [Containments][285]
+ItemGeometries-1050x1680=
+ItemGeometriesVertical=
 activityId=c44feb2e-ccdc-426f-bcaf-a64fd11ac137
 formfactor=0
 immutability=1
@@ -564,7 +568,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][285][Wallpaper][org.kde.image][General]
-Image=file:///home/kot/Images/82e0b622240ce4f4a215ae0bda8947bb.png
+Image=file:///home/kot/Images/assets/bg/plasma_localsharewallpapers/portrait_mix/
 SlidePaths=/home/kot/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments241Appletsts][260][Configuration][General]
