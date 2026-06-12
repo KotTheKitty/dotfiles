@@ -149,7 +149,7 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][121][Applets][255][Configuration]
-popupHeight=646
+popupHeight=690
 popupWidth=312
 
 [Containments][121][Applets][255][Configuration][ConfigDialog]
@@ -159,6 +159,27 @@ DialogWidth=810
 [Containments][121][Applets][255][Configuration][General]
 favoritesPortedToKAstats=true
 recentOrdering=1
+
+[Containments][121][Applets][286]
+immutability=1
+plugin=org.kde.plasma.webbrowser
+
+[Containments][121][Applets][286][Configuration]
+popupHeight=973
+popupWidth=760
+
+[Containments][121][Applets][286][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][121][Applets][286][Configuration][General]
+defaultUrl=http://localhost:8880
+enableNavigationBar=false
+icon=music-library
+privateBrowsing=false
+useDefaultUrl=true
+useFavIcon=false
+useMinViewWidth=false
 
 [Containments][121][General]
 AppletOrder=255;254
