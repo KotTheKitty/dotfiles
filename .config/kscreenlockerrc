@@ -4,5 +4,4 @@ Timeout=15
 
 [Greeter][Wallpaper][org.kde.image][General]
 Image=file:///home/kot/Images/assets/bg/Catgender_flag.png
-PreviewImage=file:///home/kot/Images/assets/bg/Catgender_flag.png
 SlidePaths=/usr/share/wallpapers/

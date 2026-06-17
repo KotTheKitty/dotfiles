@@ -6,6 +6,7 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][119]
+ItemGeometries-1280x720=
 ItemGeometries-1920x1080=
 ItemGeometries-2560x1440=
 ItemGeometriesHorizontal=
@@ -150,7 +151,7 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][121][Applets][255][Configuration]
-popupHeight=734
+popupHeight=646
 popupWidth=312
 
 [Containments][121][Applets][255][Configuration][ConfigDialog]
@@ -325,14 +326,22 @@ plugin=org.kde.plasma.addons.katesessions
 immutability=1
 plugin=org.kde.merkuro.contact.applet
 
+[Containments][216][Applets][221][Applets][287]
+immutability=1
+plugin=org.kde.plasma.vault
+
+[Containments][216][Applets][221][Applets][288]
+immutability=1
+plugin=org.kde.plasma.printmanager
+
 [Containments][216][Applets][221][ConfigDialog]
 DialogHeight=630
 DialogWidth=810
 
 [Containments][216][Applets][221][General]
-extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.addons.katesessions,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet
+extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.addons.katesessions,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet,org.kde.plasma.vault,org.kde.plasma.printmanager
 hiddenItems=org.kde.plasma.addons.katesessions,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,trayid68081
-knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet
+knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet,org.kde.plasma.vault,org.kde.plasma.printmanager
 
 [Containments][216][Applets][239]
 immutability=1
@@ -405,7 +414,7 @@ immutability=1
 plugin=org.kde.plasma.webbrowser
 
 [Containments][241][Applets][260][Configuration]
-popupHeight=1018
+popupHeight=847
 popupWidth=517
 
 [Containments][241][Applets][260][Configuration][ConfigDialog]
@@ -415,7 +424,7 @@ DialogWidth=810
 [Containments][241][Applets][260][Configuration][General]
 defaultUrl=https://www.imood.com/dashboard
 favIcon=https://www.imood.com/favicon.ico
-url=https://www.imood.com/login?from=https%3A%2F%2Fwww.imood.com%2Fdashboard
+url=https://www.imood.com/dashboard
 useDefaultUrl=true
 useMinViewWidth=false
 
@@ -532,14 +541,22 @@ plugin=org.kde.merkuro.contact.applet
 DialogHeight=630
 DialogWidth=810
 
+[Containments][256][Applets][264][Applets][289]
+immutability=1
+plugin=org.kde.plasma.vault
+
+[Containments][256][Applets][264][Applets][290]
+immutability=1
+plugin=org.kde.plasma.printmanager
+
 [Containments][256][Applets][264][ConfigDialog]
 DialogHeight=630
 DialogWidth=810
 
 [Containments][256][Applets][264][General]
-extraItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.addons.katesessions,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet
+extraItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.addons.katesessions,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet,org.kde.plasma.vault,org.kde.plasma.printmanager
 hiddenItems=org.kde.plasma.mediacontroller,org.kde.plasma.addons.katesessions,trayid68081
-knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet
+knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet,org.kde.plasma.vault,org.kde.plasma.printmanager
 
 [Containments][256][General]
 AppletOrder=259;264
@@ -661,11 +678,11 @@ wallpaperplugin=org.kde.image
 
 [Containments][287][Applets][292][Applets][293]
 immutability=1
-plugin=org.kde.kdeconnect
+plugin=org.kde.plasma.vault
 
 [Containments][287][Applets][292][Applets][294]
 immutability=1
-plugin=org.kde.plasma.cameraindicator
+plugin=org.kde.kdeconnect
 
 [Containments][287][Applets][292][Applets][295]
 immutability=1
@@ -735,14 +752,18 @@ plugin=org.kde.plasma.mediacontroller
 immutability=1
 plugin=org.kde.plasma.addons.katesessions
 
+[Containments][287][Applets][292][Applets][311]
+immutability=1
+plugin=org.kde.plasma.printmanager
+
 [Containments][287][Applets][292][ConfigDialog]
 DialogHeight=630
 DialogWidth=810
 
 [Containments][287][Applets][292][General]
-extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.addons.katesessions,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet
+extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.addons.katesessions,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet,org.kde.plasma.vault,org.kde.plasma.printmanager
 hiddenItems=org.kde.plasma.addons.katesessions,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,trayid68081
-knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet
+knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet,org.kde.plasma.vault,org.kde.plasma.printmanager
 
 [Containments][287][Applets][311]
 immutability=1
