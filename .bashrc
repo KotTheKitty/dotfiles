@@ -31,3 +31,8 @@ eval "$(zoxide init bash)"
 
 # Created by `pipx` on 2026-03-22 01:23:54
 export PATH="$PATH:/home/kot/.local/bin"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/kot/.lmstudio/bin"
+# End of LM Studio CLI section
+

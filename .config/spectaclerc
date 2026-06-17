@@ -4,7 +4,6 @@ clipboardGroup=PostScreenshotCopyImage
 useReleaseToCapture=true
 
 [GuiConfig]
-includeDecorations=false
 includeShadow=false
 quitAfterSaveCopyExport=true
 videoIncludePointer=false
@@ -13,7 +12,7 @@ videoIncludePointer=false
 imageCompressionQuality=100
 imageFilenameTemplate=Plasma_<yyyy><MM><dd>_<HH><mm><ss>_<title>
 imageSaveLocation=file:///home/kot/Images/CopiesEcran
-lastImageSaveLocation=file:///home/kot/Images/CopiesEcran/Plasma_20260612_022106.png
+lastImageSaveLocation=file:///home/kot/Images/CopiesEcran/Plasma_20260617_003804_Signal.png
 translatedScreenshotsFolder=Copies d'écran
 
 [VideoSave]

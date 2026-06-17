@@ -7,7 +7,7 @@ Switch keyboard layout to Anglais (US)=none,none,Passer à la disposition de cla
 Switch keyboard layout to Français (Canada)=none,none,Passer à la disposition de clavier Français (Canada)
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Basculer vers la dernière disposition de clavier
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Passer à la disposition de clavier suivante
-_k_friendly_name=Commutateur de dispositions de clavier
+_k_friendly_name=Changeur de disposition de clavier
 
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Activer ou désactiver le lecteur d'écran
@@ -30,7 +30,7 @@ increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Augmenter l
 increase_volume=Volume Up,Volume Up,Augmenter le volume
 increase_volume_small=Shift+Volume Up,Shift+Volume Up,Augmenter le volume de 1 %
 mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Couper le son du microphone
-mute=Volume Mute,Volume Mute,Muet
+mute=Meta+Alt+Up\tVolume Mute,Volume Mute,Muet
 
 [ksmserver]
 Halt Without Confirmation=,,Éteindre sans confirmation
@@ -73,7 +73,7 @@ Switch One Desktop to the Right=Meta+Ctrl+Right,Meta+Ctrl+Right,Passer au bureau
 Switch Window Down=Meta+Down,Meta+Alt+Down,Basculer vers la fenêtre en-dessous
 Switch Window Left=Meta+Left,Meta+Alt+Left,Basculer vers la fenêtre à gauche
 Switch Window Right=Meta+Right,Meta+Alt+Right,Basculer vers la fenêtre à droite
-Switch Window Up=Meta+Alt+Up\tMeta+Up,Meta+Alt+Up,Basculer vers la fenêtre au-dessus
+Switch Window Up=Meta+Up,Meta+Alt+Up,Basculer vers la fenêtre au-dessus
 Switch to Desktop 1=Ctrl+F1\tMeta+1\tMeta+F1,Meta+F1\tCtrl+F1,Passer au bureau 1
 Switch to Desktop 10=Meta+0,,Passer au bureau 10
 Switch to Desktop 11=,,Passer au bureau 11
@@ -227,6 +227,11 @@ seekforwardmedia=Media Fast Forward,Media Fast Forward,Avancement de 5 secondes 
 seekforwardmedialong=,,Avancement de 30 secondes de la lecture du média
 stopmedia=Media Stop,Media Stop,Arrêtez la lecture du média
 
+[org.chromium.Chromium]
+CA215F66532801AF7C0E8D2E428083B8-Ctrl+0=,none,Electron shortcut Ctrl+0
+F3B3EADB0F74605A77E7315E315FFF2D-=,none,Electron shortcut\s
+_k_friendly_name=org.chromium.Chromium
+
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Diminuer la luminosité du clavier
 Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,Diminuer la luminosité de l'écran
@@ -282,7 +287,6 @@ toggle do not disturb=,,Basculer « Ne pas déranger »
 ActiveWindowScreenShot=Ctrl+Print
 CurrentMonitorScreenShot=Shift+Print
 FullScreenScreenShot=Ctrl+Shift+Print
-OpenWithoutScreenshot=
 RecordRegion=Meta+Print\tMeta+R
 RecordScreen=Meta+Shift+Print
 RecordWindow=Meta+Ctrl+Print
