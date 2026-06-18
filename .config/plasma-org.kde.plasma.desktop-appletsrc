@@ -167,7 +167,7 @@ immutability=1
 plugin=org.kde.plasma.webbrowser
 
 [Containments][121][Applets][286][Configuration]
-popupHeight=919
+popupHeight=847
 popupWidth=760
 
 [Containments][121][Applets][286][Configuration][ConfigDialog]
@@ -424,7 +424,7 @@ DialogWidth=810
 [Containments][241][Applets][260][Configuration][General]
 defaultUrl=https://www.imood.com/dashboard
 favIcon=https://www.imood.com/favicon.ico
-url=https://www.imood.com/dashboard
+url=https://www.imood.com/login?from=https%3A%2F%2Fwww.imood.com%2Fdashboard
 useDefaultUrl=true
 useMinViewWidth=false
 
@@ -686,7 +686,7 @@ plugin=org.kde.kdeconnect
 
 [Containments][287][Applets][292][Applets][295]
 immutability=1
-plugin=org.kde.plasma.clipboard
+plugin=org.kde.plasma.cameraindicator
 
 [Containments][287][Applets][292][Applets][296]
 immutability=1
