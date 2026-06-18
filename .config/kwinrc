@@ -90,7 +90,6 @@ CenterSnapZone=20
 DelayFocusInterval=1000
 ElectricBorderCooldown=250
 ElectricBorderDelay=0
-Placement=UnderMouse
 RollOverDesktops=true
 
 [Windows_HDR]
