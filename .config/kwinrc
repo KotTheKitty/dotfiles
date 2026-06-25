@@ -11,6 +11,12 @@ EdgeBarrier=0
 BlurStrength=5
 NoiseStrength=0
 
+[Effect-mousemark]
+Arrowdrawalt=true
+Freedrawalt=true
+Freedrawcontrol=true
+Freedrawshift=false
+
 [Effect-shakecursor]
 Magnification=10
 
@@ -32,6 +38,7 @@ blurEnabled=true
 desktopchangeosdEnabled=true
 gamecontrollerEnabled=true
 magiclampEnabled=true
+mousemarkEnabled=true
 squashEnabled=false
 
 [Tiling][bea209ee-3309-4925-a784-6bba4732665d][]
@@ -84,12 +91,14 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Wayland]
 EnablePrimarySelection=false
+InputMethod[$e]=/usr/share/applications/org.kde.plasma.keyboard.desktop
 
 [Windows]
 CenterSnapZone=20
 DelayFocusInterval=1000
 ElectricBorderCooldown=250
 ElectricBorderDelay=0
+PerOutputVirtualDesktops=true
 RollOverDesktops=true
 
 [Windows_HDR]

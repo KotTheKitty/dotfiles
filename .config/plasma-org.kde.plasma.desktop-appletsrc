@@ -151,7 +151,7 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][121][Applets][255][Configuration]
-popupHeight=646
+popupHeight=728
 popupWidth=312
 
 [Containments][121][Applets][255][Configuration][ConfigDialog]
@@ -353,6 +353,7 @@ popupWidth=560
 
 [Containments][216][Applets][239][Configuration][Appearance]
 dateFormat=longDate
+enabledCalendarPlugins=holidaysevents,pimevents
 fontWeight=400
 showSeconds=Always
 
@@ -424,7 +425,7 @@ DialogWidth=810
 [Containments][241][Applets][260][Configuration][General]
 defaultUrl=https://www.imood.com/dashboard
 favIcon=https://www.imood.com/favicon.ico
-url=https://www.imood.com/login?from=https%3A%2F%2Fwww.imood.com%2Fdashboard
+url=https://www.imood.com/dashboard
 useDefaultUrl=true
 useMinViewWidth=false
 
@@ -584,7 +585,6 @@ dateFormat=longDate
 enabledCalendarPlugins=pimevents,holidaysevents
 showDate=false
 showSeconds=Always
-showWeekNumbers=true
 
 [Containments][281][Applets][282][Configuration][ConfigDialog]
 DialogHeight=630
@@ -690,11 +690,11 @@ plugin=org.kde.plasma.cameraindicator
 
 [Containments][287][Applets][292][Applets][296]
 immutability=1
-plugin=org.kde.plasma.devicenotifier
+plugin=org.kde.plasma.clipboard
 
 [Containments][287][Applets][292][Applets][297]
 immutability=1
-plugin=org.kde.plasma.manage-inputmethod
+plugin=org.kde.plasma.devicenotifier
 
 [Containments][287][Applets][292][Applets][298]
 immutability=1
@@ -725,7 +725,6 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][287][Applets][292][Applets][304][Configuration][General]
-currentTab=streams
 migrated=true
 
 [Containments][287][Applets][292][Applets][305]
@@ -734,7 +733,7 @@ plugin=org.kde.merkuro.contact.applet
 
 [Containments][287][Applets][292][Applets][306]
 immutability=1
-plugin=org.kde.plasma.battery
+plugin=org.kde.plasma.manage-inputmethod
 
 [Containments][287][Applets][292][Applets][307]
 immutability=1
@@ -755,6 +754,10 @@ plugin=org.kde.plasma.addons.katesessions
 [Containments][287][Applets][292][Applets][311]
 immutability=1
 plugin=org.kde.plasma.printmanager
+
+[Containments][287][Applets][292][Applets][313]
+immutability=1
+plugin=org.kde.plasma.battery
 
 [Containments][287][Applets][292][ConfigDialog]
 DialogHeight=630

@@ -156,8 +156,8 @@ Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false
-Speedbar Width=122
-View Style=Simple
+Speedbar Width=116
+View Style=DetailTree
 
 [PreviewSettings]
 EnableRemoteFolderThumbnail=false
