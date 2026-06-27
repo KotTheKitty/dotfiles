@@ -7,7 +7,7 @@ Switch keyboard layout to Anglais (US)=none,none,Passer à la disposition de cla
 Switch keyboard layout to Français (Canada)=none,none,Passer à la disposition de clavier Français (Canada)
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Basculer vers la dernière disposition de clavier
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Passer à la disposition de clavier suivante
-_k_friendly_name=Changeur de disposition de clavier
+_k_friendly_name=Commutateur de dispositions de clavier
 
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Activer ou désactiver le lecteur d'écran
@@ -300,7 +300,6 @@ _launch=Ctrl+Alt+T\tMeta+Return
 ActiveWindowScreenShot=Ctrl+Print
 CurrentMonitorScreenShot=Shift+Print
 FullScreenScreenShot=Ctrl+Shift+Print
-OpenWithoutScreenshot=none
 RecordRegion=Meta+R\tMeta+Print
 RecordScreen=Meta+Shift+Print
 RecordWindow=Meta+Ctrl+Print

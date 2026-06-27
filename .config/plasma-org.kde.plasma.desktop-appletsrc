@@ -46,7 +46,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][120][Wallpaper][org.kde.image][General]
-Image=file:///home/kot/Images/82e0b622240ce4f4a215ae0bda8947bb.png
+Image=file:///home/kot/Images/assets/bg/n/4d485a22afe14a67f60ba7ddf68fc6521d78cf0c7f90a1afe714ed3c88f3e4cf.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][121]
@@ -407,8 +407,8 @@ immutability=1
 plugin=org.kde.plasma.windowlist
 
 [Containments][241][Applets][246][Configuration]
-popupHeight=400
-popupWidth=560
+popupHeight=113
+popupWidth=390
 
 [Containments][241][Applets][260]
 immutability=1
