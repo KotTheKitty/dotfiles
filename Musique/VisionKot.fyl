@@ -85,7 +85,7 @@
                                                                 "Widgets": [
                                                                     {
                                                                         "SplitterVertical": {
-                                                                            "State": "AAAA/wAAAAEAAAACAAAAHgAAAB4A/////wEAAAACAA==",
+                                                                            "State": "AAAA/wAAAAEAAAACAAABJQAAAPgA/////wEAAAACAA==",
                                                                             "Widgets": [
                                                                                 {
                                                                                     "Lyrics": {
@@ -182,7 +182,7 @@
                                             {
                                                 "Playlist": {
                                                     "Columns": "8:132|3|1|7:2",
-                                                    "HeaderState": "AAAAVXjaY2BgYGFgYBAB4iwolmGAiIEAExAzAjEzSMx+wyYxpxOR3Pa38n1f7jVfDqd3X64CsUAKGf4DAQDovxWU",
+                                                    "HeaderState": "AAAAVXjaY2BgYGFgYBABYk0oBrFBYiDABMSMQMwMErPfsEnM6UQkt/2tfN+Xe82Xw+ndl6tALJBChv9AAADCHxUK",
                                                     "ID": "e7b43af6936242dbb8d0236afda9a15d",
                                                     "Preset": 0,
                                                     "SingleMode": false
@@ -191,7 +191,7 @@
                                             {
                                                 "PlaylistManager": {
                                                     "ActivateOnSelection": false,
-                                                    "State": "AAAA/wAAAAAAAAABAAAAAP////8BAAAAAAAAAAAAAAAEDAAAAAIAAAADAAAAZAAAAAIAAABkAAABGAAAAAQBAQAAAAAAAAEAAAADAAAAZP////8AAACEAAAAAAAAAAQAAADLAAAAAQAAAAEAAABNAAAAAQAAAAMAAAAAAAAAAQAAAAMAAAAAAAAAAQAAAAMAAAPoAAAAAAAAAAAAAAAAAAAAAAAAAAAB"
+                                                    "State": "AAAA/wAAAAAAAAABAAAAAP////8BAAAAAAAAAAAAAAAEDAAAAAIAAAADAAAAZAAAAAIAAABkAAAAbQAAAAQBAQAAAAAAAAEAAAADAAAAZP////8AAACEAAAAAAAAAAQAAAAgAAAAAQAAAAEAAABNAAAAAQAAAAMAAAAAAAAAAQAAAAMAAAAAAAAAAQAAAAMAAAPoAAAAAAAAAAAAAAAAAAAAAAAAAAAB"
                                                 }
                                             }
                                         ]

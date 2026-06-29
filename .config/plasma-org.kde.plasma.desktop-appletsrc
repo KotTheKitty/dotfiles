@@ -193,7 +193,7 @@ plugin=org.kde.plasma.kicker
 
 [Containments][121][Applets][255][Configuration]
 popupHeight=728
-popupWidth=312
+popupWidth=988
 
 [Containments][121][Applets][255][Configuration][ConfigDialog]
 DialogHeight=630
