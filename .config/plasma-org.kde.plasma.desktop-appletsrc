@@ -424,7 +424,7 @@ DialogWidth=810
 [Containments][241][Applets][260][Configuration][General]
 defaultUrl=https://www.imood.com/dashboard
 favIcon=https://www.imood.com/favicon.ico
-url=https://www.imood.com/dashboard
+url=https://www.imood.com/users/KittyKot
 useDefaultUrl=true
 useMinViewWidth=false
 
