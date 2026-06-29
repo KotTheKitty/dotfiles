@@ -1,6 +1,29 @@
 [ActionPlugins][0]
-MiddleButton;NoModifier=org.kde.paste
+MiddleButton;NoModifier=org.kde.applauncher
 RightButton;NoModifier=org.kde.contextmenu
+
+[ActionPlugins][0][MiddleButton;NoModifier]
+showAppsByName=true
+
+[ActionPlugins][0][RightButton;NoModifier]
+_add panel=true
+_context=true
+_display_settings=true
+_lock_screen=true
+_logout=true
+_open_terminal=true
+_run_command=true
+_sep1=true
+_sep2=true
+_sep3=true
+_sep4=true
+_wallpaper=true
+add widgets=true
+configure=true
+configure shortcuts=false
+desktop edit mode=true
+manage activities=true
+remove=true
 
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
@@ -21,6 +44,15 @@ wallpaperplugin=org.kde.image
 [Containments][119][ConfigDialog]
 DialogHeight=630
 DialogWidth=810
+
+[Containments][119][General]
+changedPositions={}
+iconSize=4
+lastResolution=2560x1440
+previews=false
+sortMode=-1
+textLines=1
+url=activities:/current/
 
 [Containments][119][Wallpaper][org.kde.image][General]
 Image=file:///home/kot/Images/assets/bg/plasma_localsharewallpapers/landscape_artifyber/
@@ -45,8 +77,15 @@ wallpaperplugin=org.kde.image
 DialogHeight=630
 DialogWidth=810
 
+[Containments][120][General]
+changedPositions={"desktop:/LICENSE":["1600x900","1","4"],"desktop:/README.md":["1600x900","1","5"],"desktop:/Software":["1600x900","1","0"],"desktop:/Téléchargements":["1600x900","1","1"],"desktop:/Vidéos":["1600x900","1","2"],"desktop:/lockplasma.sh":["1600x900","1","6"],"desktop:/steamvr":["1600x900","1","1"],"desktop:/unlock.sh":["1600x900","1","8"],"desktop:/vmware":["1600x900","1","3"]}
+filterMimeTypes=\\0
+lastResolution=1600x900
+positions={"1600x900":["2","14","desktop:/Roms","0","13","desktop:/config","0","2","desktop:/LICENSE","1","4","desktop:/Documents","0","5","desktop:/Musique","0","9","desktop:/Musique2","0","10","desktop:/Images","0","8","desktop:/CopiesÉcran","0","3","desktop:/Vidéos","1","2","desktop:/backup","0","0","desktop:/vmware","1","3","desktop:/Games","0","7","desktop:/lockplasma.sh","1","6","desktop:/Beat Saber","0","1","desktop:/unlock.sh","1","8","desktop:/steamvr","1","1","desktop:/README.md","1","5","desktop:/Téléchargements","1","1","desktop:/gameconfig","0","6","desktop:/data","0","4","desktop:/Software","1","0","desktop:/MusiqueArchive","0","11","desktop:/Public","0","12"]}
+sortMode=-1
+
 [Containments][120][Wallpaper][org.kde.image][General]
-Image=file:///home/kot/Images/assets/bg/n/horizontal/4d485a22afe14a67f60ba7ddf68fc6521d78cf0c7f90a1afe714ed3c88f3e4cf.png
+Image=file:///home/kot/Images/assets/bg/horizontal/bafkreifryatvoqr3gtfzc2n2qqgyihrs7gw4jg3opyucyokbinmavciluu.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][121]
@@ -424,7 +463,7 @@ DialogWidth=810
 [Containments][241][Applets][260][Configuration][General]
 defaultUrl=https://www.imood.com/dashboard
 favIcon=https://www.imood.com/favicon.ico
-url=https://www.imood.com/users/KittyKot
+url=https://www.imood.com/login?from=https%3A%2F%2Fwww.imood.com%2Fdashboard
 useDefaultUrl=true
 useMinViewWidth=false
 
@@ -805,5 +844,5 @@ useDefaultUrl=true
 useMinViewWidth=false
 
 [ScreenMapping]
-itemsOnDisabledScreens=
-screenMapping=
+itemsOnDisabledScreens=0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,69,desktop:/Téléchargements/STOP.gif,desktop:/Téléchargements/signal-2026-06-20-19-40-46-831_002.jpg,desktop:/Téléchargements/v3-hdmi-rpi4-aarch64-latest.img,desktop:/Téléchargements/utopianvee-260619-1834-part2,desktop:/Téléchargements/converted_gif.gif,desktop:/Beat Saber,desktop:/Téléchargements/Screen Shot 2026-06-18 at 18.57.36.png,desktop:/Téléchargements/assets_SE_meow.ogg,desktop:/Téléchargements/Reddit - All in One (08.Nov.2025).png,desktop:/Téléchargements,desktop:/Téléchargements/oyasumi-linux.tar.zst,desktop:/Téléchargements/schoolnvme,desktop:/Games,desktop:/Public,desktop:/Téléchargements/hydrus-companion-master,desktop:/Téléchargements/utopianvee-260619-1834,desktop:/Téléchargements/compose.yaml,desktop:/Téléchargements/x and twitter post parser using fixupx-2024-11-21.png,desktop:/Téléchargements/x and twitter post parser using fixupx-2024-11-21(1).png,desktop:/backup,desktop:/Téléchargements/social-stream-ninja.xpi,desktop:/gameconfig,desktop:/Téléchargements/nitter 2021.02.08(1).png,desktop:/Téléchargements/sqlite-tools-linux-x64-3530200.zip,desktop:/Téléchargements/2026-05,desktop:/lockplasma.sh,desktop:/Téléchargements/q3_50111670068200510.zip,desktop:/Téléchargements/2026-03,desktop://qemu-8.2.2,desktop:/LICENSE,desktop:/Téléchargements/v3-hdmi-rpi4-aarch64-latest.img.xz,desktop:/Téléchargements/social_stream-main.zip,desktop:/Téléchargements/HLH5UGraEAA2vPg.jpeg,desktop:/Téléchargements/utopianvee-260619-1834-part1,desktop:/Téléchargements/login,desktop:/Téléchargements/Oyasumi,desktop:/data,desktop:/Téléchargements/nitter tweet parser - fetches tags - 2020-07-30.png,desktop:/Téléchargements/nitter 2021.02.08.png,desktop:/Téléchargements/palette.json,desktop:/Musique,desktop:/Téléchargements/Screen Shot 2026-06-18 at 18.58.28.png,desktop:/MusiqueArchive,desktop:/Vidéos,desktop:/README.md,desktop:/Téléchargements/Exposing Mintpaws .odt,desktop:/vmware,desktop:/Téléchargements/ssstwitter.com_1781835630447.mp4,desktop:/Software,desktop:/Téléchargements/2026-02,desktop:/Téléchargements/2026-01,desktop:/CopiesÉcran,desktop:/Téléchargements/fed1123fdc8cbe90d77d68e3b103a231338eeedfe50360be0f6a6b22a4be5bbe.png,desktop:/Téléchargements/catppuccin-mocha.theme,desktop:/Images,desktop:/config,desktop:/Téléchargements/2026-06,desktop:/Téléchargements/2025-12,desktop:/Téléchargements/2026-04,desktop:/Roms,desktop:/Téléchargements/sqlite-tools-linux-x64-3530200,desktop:/steamvr,desktop:/Documents,desktop:/Téléchargements/22. Version 1.7.zip,desktop:/Téléchargements/1a308d16560e03c8a42ae33a8a771065f05463e63a195c602289a801004cba5d.png,desktop:/unlock.sh,desktop:/Téléchargements/zaaru (EXPLICIT).png,desktop:/Musique2,desktop:/RomsOld
+screenMapping=desktop://qemu-anti-detection,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Software,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://pkglist.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://towerunite_meowby_workshoprig_v3.dae,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/LICENSE,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://dotfiles_backup_2026-05-22_18-19-55,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://games,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://roms,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://readme.md,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://romsold,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://install_signal_theme.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,http://desktop//Beat Saber,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://reencode.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://hyprland.lua.bak,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://musique2,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://alcom,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Documents,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://projets,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://openrgb,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://virt.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://output.gif,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://unlock.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://musiquearchive,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://config,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/CopiesÉcran,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://gameconfig,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://pacstrap.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://data,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://backup,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/vmware,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://install_millennium.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Public,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://lockplasma.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://xn--copiescran-g7a,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/MusiqueArchive,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://xn--vidos-dsa,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Vidéos,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://steamvr,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://material_diffuse.png,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/data,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://license,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://package-lock.json,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/backup,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://hydrus_export,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://software,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/README.md,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Roms,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://xn--tlchargements-bhbb,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://musique,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://images,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Musique,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://install-dms-shell.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/gameconfig,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://plasmapackages.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Games,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/config,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://vmware,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://public,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://meowbytexture.png,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Beat Saber,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://qemu-8.2.2.tar.xz,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://documents,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Images,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Musique2,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://hyprland.conf,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137
