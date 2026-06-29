@@ -300,7 +300,6 @@ _launch=Ctrl+Alt+T\tMeta+Return
 ActiveWindowScreenShot=Ctrl+Print
 CurrentMonitorScreenShot=Shift+Print
 FullScreenScreenShot=Ctrl+Shift+Print
-OpenWithoutScreenshot=none
 RecordRegion=Meta+R\tMeta+Print
 RecordScreen=Meta+Shift+Print
 RecordWindow=Meta+Ctrl+Print

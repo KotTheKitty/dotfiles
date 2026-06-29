@@ -133,7 +133,6 @@ smallestReadableFont=Rubik,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 toolBarFont=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 
 [KDE]
-AutomaticLookAndFeel=true
 AutomaticLookAndFeelOnIdle=false
 DefaultDarkLookAndFeel=Catppuccin Mocha Mauve Custom
 DefaultLightLookAndFeel=Catppuccin Latte Mauve Custom

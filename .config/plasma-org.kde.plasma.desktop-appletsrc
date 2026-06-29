@@ -49,6 +49,7 @@ DialogWidth=810
 changedPositions={}
 iconSize=4
 lastResolution=2560x1440
+positions={"2560x1440":["1","18"]}
 previews=false
 sortMode=-1
 textLines=1
@@ -78,11 +79,12 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][120][General]
-changedPositions={"desktop:/LICENSE":["1600x900","1","4"],"desktop:/README.md":["1600x900","1","5"],"desktop:/Software":["1600x900","1","0"],"desktop:/Téléchargements":["1600x900","1","1"],"desktop:/Vidéos":["1600x900","1","2"],"desktop:/lockplasma.sh":["1600x900","1","6"],"desktop:/steamvr":["1600x900","1","1"],"desktop:/unlock.sh":["1600x900","1","8"],"desktop:/vmware":["1600x900","1","3"]}
+changedPositions={}
 filterMimeTypes=\\0
 lastResolution=1600x900
-positions={"1600x900":["2","14","desktop:/Roms","0","13","desktop:/config","0","2","desktop:/LICENSE","1","4","desktop:/Documents","0","5","desktop:/Musique","0","9","desktop:/Musique2","0","10","desktop:/Images","0","8","desktop:/CopiesÉcran","0","3","desktop:/Vidéos","1","2","desktop:/backup","0","0","desktop:/vmware","1","3","desktop:/Games","0","7","desktop:/lockplasma.sh","1","6","desktop:/Beat Saber","0","1","desktop:/unlock.sh","1","8","desktop:/steamvr","1","1","desktop:/README.md","1","5","desktop:/Téléchargements","1","1","desktop:/gameconfig","0","6","desktop:/data","0","4","desktop:/Software","1","0","desktop:/MusiqueArchive","0","11","desktop:/Public","0","12"]}
+positions={"1600x900":["1","14"]}
 sortMode=-1
+url=desktop:/Public/
 
 [Containments][120][Wallpaper][org.kde.image][General]
 Image=file:///home/kot/Images/assets/bg/horizontal/bafkreifryatvoqr3gtfzc2n2qqgyihrs7gw4jg3opyucyokbinmavciluu.jpg
@@ -177,13 +179,13 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][121][Applets][254][Configuration][General]
-groupingStrategy=0
 launchers=applications:librewolf.desktop,preferred://filemanager,applications:kitty.desktop
 middleClickAction=Close
-showOnlyCurrentDesktop=false
+showOnlyCurrentActivity=false
 sortingStrategy=2
 taskMaxWidth=Narrow
-wheelEnabled=AllTask
+wheelEnabled=AdjustVolume
+wheelSkipMinimized=false
 
 [Containments][121][Applets][255]
 immutability=1
@@ -268,7 +270,11 @@ DialogWidth=810
 
 [Containments][216][Applets][219][Configuration][General]
 launchers=preferred://filemanager,applications:librewolf.desktop,applications:kitty.desktop
+middleClickAction=Close
+showOnlyCurrentActivity=false
 sortingStrategy=2
+wheelEnabled=AdjustVolume
+wheelSkipMinimized=false
 
 [Containments][216][Applets][220]
 immutability=1
@@ -377,8 +383,8 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][216][Applets][221][General]
-extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.addons.katesessions,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet,org.kde.plasma.vault,org.kde.plasma.printmanager
-hiddenItems=org.kde.plasma.addons.katesessions,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,trayid68081
+extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.addons.katesessions,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.kclock_1x2,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.merkuro.contact.applet
+hiddenItems=org.kde.plasma.addons.katesessions,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,trayid68081,org.kde.merkuro.contact.applet
 knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet,org.kde.plasma.vault,org.kde.plasma.printmanager
 
 [Containments][216][Applets][239]
@@ -463,7 +469,7 @@ DialogWidth=810
 [Containments][241][Applets][260][Configuration][General]
 defaultUrl=https://www.imood.com/dashboard
 favIcon=https://www.imood.com/favicon.ico
-url=https://www.imood.com/login?from=https%3A%2F%2Fwww.imood.com%2Fdashboard
+url=https://www.imood.com/dashboard
 useDefaultUrl=true
 useMinViewWidth=false
 
@@ -593,8 +599,8 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][256][Applets][264][General]
-extraItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.addons.katesessions,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet,org.kde.plasma.vault,org.kde.plasma.printmanager
-hiddenItems=org.kde.plasma.mediacontroller,org.kde.plasma.addons.katesessions,trayid68081
+extraItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.addons.katesessions,org.kde.plasma.kclock_1x2,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.merkuro.contact.applet
+hiddenItems=org.kde.plasma.mediacontroller,org.kde.plasma.addons.katesessions,trayid68081,org.kde.merkuro.contact.applet
 knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet,org.kde.plasma.vault,org.kde.plasma.printmanager
 
 [Containments][256][General]
@@ -648,6 +654,9 @@ wallpaperplugin=org.kde.image
 DialogHeight=630
 DialogWidth=810
 
+[Containments][285][General]
+url=desktop:/Public/
+
 [Containments][285][Wallpaper][org.kde.image][General]
 Image=file:///home/kot/Images/assets/bg/plasma_localsharewallpapers/portrait_mix/
 SlidePaths=/home/kot/.local/share/wallpapers/,/usr/share/wallpapers/
@@ -693,7 +702,11 @@ DialogWidth=810
 
 [Containments][287][Applets][290][Configuration][General]
 launchers=preferred://filemanager,applications:librewolf.desktop,applications:kitty.desktop
+middleClickAction=Close
+showOnlyCurrentActivity=false
 sortingStrategy=2
+wheelEnabled=AdjustVolume
+wheelSkipMinimized=false
 
 [Containments][287][Applets][291]
 immutability=1
@@ -769,6 +782,10 @@ migrated=true
 immutability=1
 plugin=org.kde.merkuro.contact.applet
 
+[Containments][287][Applets][292][Applets][305][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
 [Containments][287][Applets][292][Applets][306]
 immutability=1
 plugin=org.kde.plasma.manage-inputmethod
@@ -802,8 +819,8 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][287][Applets][292][General]
-extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.addons.katesessions,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet,org.kde.plasma.vault,org.kde.plasma.printmanager
-hiddenItems=org.kde.plasma.addons.katesessions,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,trayid68081
+extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.addons.katesessions,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.kclock_1x2,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.merkuro.contact.applet
+hiddenItems=org.kde.plasma.addons.katesessions,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.keyboardlayout,org.kde.kdeconnect,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,trayid68081,org.kde.merkuro.contact.applet
 knownItems=org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.merkuro.contact.applet,org.kde.plasma.vault,org.kde.plasma.printmanager
 
 [Containments][287][Applets][311]
@@ -844,5 +861,5 @@ useDefaultUrl=true
 useMinViewWidth=false
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,69,desktop:/Téléchargements/STOP.gif,desktop:/Téléchargements/signal-2026-06-20-19-40-46-831_002.jpg,desktop:/Téléchargements/v3-hdmi-rpi4-aarch64-latest.img,desktop:/Téléchargements/utopianvee-260619-1834-part2,desktop:/Téléchargements/converted_gif.gif,desktop:/Beat Saber,desktop:/Téléchargements/Screen Shot 2026-06-18 at 18.57.36.png,desktop:/Téléchargements/assets_SE_meow.ogg,desktop:/Téléchargements/Reddit - All in One (08.Nov.2025).png,desktop:/Téléchargements,desktop:/Téléchargements/oyasumi-linux.tar.zst,desktop:/Téléchargements/schoolnvme,desktop:/Games,desktop:/Public,desktop:/Téléchargements/hydrus-companion-master,desktop:/Téléchargements/utopianvee-260619-1834,desktop:/Téléchargements/compose.yaml,desktop:/Téléchargements/x and twitter post parser using fixupx-2024-11-21.png,desktop:/Téléchargements/x and twitter post parser using fixupx-2024-11-21(1).png,desktop:/backup,desktop:/Téléchargements/social-stream-ninja.xpi,desktop:/gameconfig,desktop:/Téléchargements/nitter 2021.02.08(1).png,desktop:/Téléchargements/sqlite-tools-linux-x64-3530200.zip,desktop:/Téléchargements/2026-05,desktop:/lockplasma.sh,desktop:/Téléchargements/q3_50111670068200510.zip,desktop:/Téléchargements/2026-03,desktop://qemu-8.2.2,desktop:/LICENSE,desktop:/Téléchargements/v3-hdmi-rpi4-aarch64-latest.img.xz,desktop:/Téléchargements/social_stream-main.zip,desktop:/Téléchargements/HLH5UGraEAA2vPg.jpeg,desktop:/Téléchargements/utopianvee-260619-1834-part1,desktop:/Téléchargements/login,desktop:/Téléchargements/Oyasumi,desktop:/data,desktop:/Téléchargements/nitter tweet parser - fetches tags - 2020-07-30.png,desktop:/Téléchargements/nitter 2021.02.08.png,desktop:/Téléchargements/palette.json,desktop:/Musique,desktop:/Téléchargements/Screen Shot 2026-06-18 at 18.58.28.png,desktop:/MusiqueArchive,desktop:/Vidéos,desktop:/README.md,desktop:/Téléchargements/Exposing Mintpaws .odt,desktop:/vmware,desktop:/Téléchargements/ssstwitter.com_1781835630447.mp4,desktop:/Software,desktop:/Téléchargements/2026-02,desktop:/Téléchargements/2026-01,desktop:/CopiesÉcran,desktop:/Téléchargements/fed1123fdc8cbe90d77d68e3b103a231338eeedfe50360be0f6a6b22a4be5bbe.png,desktop:/Téléchargements/catppuccin-mocha.theme,desktop:/Images,desktop:/config,desktop:/Téléchargements/2026-06,desktop:/Téléchargements/2025-12,desktop:/Téléchargements/2026-04,desktop:/Roms,desktop:/Téléchargements/sqlite-tools-linux-x64-3530200,desktop:/steamvr,desktop:/Documents,desktop:/Téléchargements/22. Version 1.7.zip,desktop:/Téléchargements/1a308d16560e03c8a42ae33a8a771065f05463e63a195c602289a801004cba5d.png,desktop:/unlock.sh,desktop:/Téléchargements/zaaru (EXPLICIT).png,desktop:/Musique2,desktop:/RomsOld
-screenMapping=desktop://qemu-anti-detection,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Software,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://pkglist.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://towerunite_meowby_workshoprig_v3.dae,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/LICENSE,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://dotfiles_backup_2026-05-22_18-19-55,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://games,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://roms,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://readme.md,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://romsold,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://install_signal_theme.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,http://desktop//Beat Saber,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://reencode.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://hyprland.lua.bak,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://musique2,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://alcom,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Documents,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://projets,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://openrgb,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://virt.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://output.gif,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://unlock.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://musiquearchive,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://config,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/CopiesÉcran,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://gameconfig,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://pacstrap.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://data,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://backup,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/vmware,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://install_millennium.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Public,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://lockplasma.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://xn--copiescran-g7a,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/MusiqueArchive,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://xn--vidos-dsa,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Vidéos,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://steamvr,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Téléchargements,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://material_diffuse.png,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/data,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://license,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://package-lock.json,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/backup,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://hydrus_export,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://software,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/README.md,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Roms,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://xn--tlchargements-bhbb,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://musique,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://images,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Musique,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://install-dms-shell.sh,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/gameconfig,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://plasmapackages.txt,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Games,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/config,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://vmware,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://public,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://meowbytexture.png,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Beat Saber,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://qemu-8.2.2.tar.xz,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://documents,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Images,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop:/Musique2,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,desktop://hyprland.conf,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137
+itemsOnDisabledScreens=1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,45,desktop://output.gif,desktop://hyprland.lua.bak,desktop://projets,desktop://documents,desktop://data,desktop://dotfiles_backup_2026-05-22_18-19-55,desktop://backup,desktop://games,desktop://qemu-8.2.2.tar.xz,desktop://gameconfig,desktop://hyprland.conf,desktop://towerunite_meowby_workshoprig_v3.dae,desktop://pkglist.txt,desktop://xn--vidos-dsa,desktop://reencode.sh,desktop://material_diffuse.png,desktop://lockplasma.sh,desktop://public,desktop://musiquearchive,desktop://musique,desktop://install_signal_theme.sh,desktop://steamvr,desktop://alcom,desktop://software,desktop://roms,desktop://unlock.sh,desktop://images,desktop://package-lock.json,desktop://xn--copiescran-g7a,desktop://virt.txt,desktop://openrgb,desktop://license,desktop://pacstrap.txt,desktop://hydrus_export,desktop://romsold,desktop://plasmapackages.txt,desktop://qemu-anti-detection,desktop://config,desktop://xn--tlchargements-bhbb,desktop://install_millennium.sh,desktop://install-dms-shell.sh,desktop://meowbytexture.png,desktop://musique2,desktop://readme.md,desktop://vmware,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,69,desktop:/Téléchargements/q3_50111670068200510.zip,desktop:/Téléchargements/utopianvee-260619-1834-part1,desktop:/Téléchargements/oyasumi-linux.tar.zst,desktop:/LICENSE,desktop:/Téléchargements/assets_SE_meow.ogg,desktop:/data,desktop:/Téléchargements/signal-2026-06-20-19-40-46-831_002.jpg,desktop:/Téléchargements/login,desktop:/Téléchargements/utopianvee-260619-1834,desktop:/Téléchargements/HLH5UGraEAA2vPg.jpeg,desktop:/gameconfig,desktop:/Téléchargements/compose.yaml,desktop:/Téléchargements/STOP.gif,desktop:/Téléchargements/catppuccin-mocha.theme,desktop:/Téléchargements/nitter 2021.02.08(1).png,desktop:/Téléchargements/2026-03,desktop:/RomsOld,desktop:/Téléchargements/2026-04,desktop:/Téléchargements/2026-06,desktop:/MusiqueArchive,desktop:/lockplasma.sh,desktop:/Téléchargements/2025-12,desktop:/Games,desktop:/Téléchargements/Screen Shot 2026-06-18 at 18.57.36.png,desktop:/Téléchargements/Oyasumi,desktop:/Téléchargements/fed1123fdc8cbe90d77d68e3b103a231338eeedfe50360be0f6a6b22a4be5bbe.png,desktop:/Téléchargements/1a308d16560e03c8a42ae33a8a771065f05463e63a195c602289a801004cba5d.png,desktop:/Vidéos,desktop:/Téléchargements/v3-hdmi-rpi4-aarch64-latest.img,desktop:/Téléchargements/x and twitter post parser using fixupx-2024-11-21(1).png,desktop:/Téléchargements/hydrus-companion-master,desktop:/Téléchargements/palette.json,desktop:/config,desktop:/unlock.sh,desktop:/Téléchargements/Exposing Mintpaws .odt,desktop:/Téléchargements/social_stream-main.zip,desktop:/Téléchargements/2026-02,desktop:/Téléchargements,desktop:/Images,desktop://qemu-8.2.2,desktop:/Téléchargements/sqlite-tools-linux-x64-3530200.zip,desktop:/CopiesÉcran,desktop:/Téléchargements/ssstwitter.com_1781835630447.mp4,desktop:/steamvr,desktop:/Téléchargements/22. Version 1.7.zip,desktop:/Téléchargements/v3-hdmi-rpi4-aarch64-latest.img.xz,desktop:/Musique2,desktop:/README.md,desktop:/Téléchargements/2026-05,desktop:/Téléchargements/nitter tweet parser - fetches tags - 2020-07-30.png,desktop:/Software,desktop:/Documents,desktop:/Téléchargements/zaaru (EXPLICIT).png,desktop:/Beat Saber,desktop:/Téléchargements/nitter 2021.02.08.png,desktop:/Musique,desktop:/Téléchargements/Screen Shot 2026-06-18 at 18.58.28.png,desktop:/Téléchargements/schoolnvme,desktop:/Téléchargements/2026-01,desktop:/Public,desktop:/Téléchargements/utopianvee-260619-1834-part2,desktop:/Téléchargements/converted_gif.gif,desktop:/Téléchargements/x and twitter post parser using fixupx-2024-11-21.png,desktop:/vmware,desktop:/Téléchargements/social-stream-ninja.xpi,desktop:/backup,desktop:/Roms,desktop:/Téléchargements/sqlite-tools-linux-x64-3530200,desktop:/Téléchargements/Reddit - All in One (08.Nov.2025).png
+screenMapping=http://desktop//Beat Saber,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137

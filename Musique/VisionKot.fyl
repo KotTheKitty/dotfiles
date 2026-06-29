@@ -1,0 +1,220 @@
+{
+    "Name": "VisionKot",
+    "Options": {
+        "ApplyWindowSize": true
+    },
+    "Version": 1,
+    "Widgets": [
+        {
+            "SplitterVertical": {
+                "State": "AAAA/wAAAAEAAAACAAAAHAAAAvwA/////wEAAAACAA==",
+                "Widgets": [
+                    {
+                        "SplitterHorizontal": {
+                            "State": "AAAA/wAAAAEAAAACAAAAcAAAA9YA/////wEAAAABAA==",
+                            "Widgets": [
+                                {
+                                    "PlayerControls": {
+                                        "ShowNext": true,
+                                        "ShowPlayPause": true,
+                                        "ShowPrevious": true,
+                                        "ShowStop": true
+                                    }
+                                },
+                                {
+                                    "SplitterHorizontal": {
+                                        "State": "AAAA/wAAAAEAAAACAAAAOAAAA2QA/////wEAAAABAA==",
+                                        "Widgets": [
+                                            {
+                                                "PlaylistControls": {
+                                                }
+                                            },
+                                            {
+                                                "SplitterHorizontal": {
+                                                    "State": "AAAA/wAAAAEAAAACAAAAHAAAA0cA/////wEAAAABAA==",
+                                                    "Widgets": [
+                                                        {
+                                                            "ScrobbleToggle": {
+                                                            }
+                                                        },
+                                                        {
+                                                            "SplitterHorizontal": {
+                                                                "State": "AAAA/wAAAAEAAAACAAACfAAAAMoA/////wEAAAABAA==",
+                                                                "Widgets": [
+                                                                    {
+                                                                        "SeekBar": {
+                                                                            "ShowLabels": true,
+                                                                            "ShowRemainingTime": false
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "VolumeControls": {
+                                                                            "Mode": 3
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SplitterHorizontal": {
+                            "State": "AAAA/wAAAAEAAAACAAABHgAAAu8A/////wEAAAABAA==",
+                            "Widgets": [
+                                {
+                                    "TabStack": {
+                                        "LastTab": 0,
+                                        "Position": "North",
+                                        "RememberLastTab": true,
+                                        "State": "Vision\u001fListe de Lecture\u001fListes",
+                                        "Widgets": [
+                                            {
+                                                "SplitterVertical": {
+                                                    "State": "AAAA/wAAAAEAAAACAAACtQAAABYA/////wEAAAACAA==",
+                                                    "Widgets": [
+                                                        {
+                                                            "SplitterVertical": {
+                                                                "State": "AAAA/wAAAAEAAAACAAACHgAAAJYA/////wEAAAACAA==",
+                                                                "Widgets": [
+                                                                    {
+                                                                        "SplitterVertical": {
+                                                                            "State": "AAAA/wAAAAEAAAACAAAAHgAAAB4A/////wEAAAACAA==",
+                                                                            "Widgets": [
+                                                                                {
+                                                                                    "Lyrics": {
+                                                                                        "Alignment": 132,
+                                                                                        "BaseFont": "",
+                                                                                        "BottomMargin": 20,
+                                                                                        "CentreFirstSyncedLine": false,
+                                                                                        "CentreLastSyncedLine": true,
+                                                                                        "EdgeFadeMode": 0,
+                                                                                        "EdgeFadeSize": 10,
+                                                                                        "LeftMargin": 20,
+                                                                                        "LineFont": "",
+                                                                                        "LineSpacing": 5,
+                                                                                        "NoLyricsScript": "[Artiste: %artist%$crlf(2)][Album: %album%$crlf(2)]Titre: %title%",
+                                                                                        "ProgressFill": 0,
+                                                                                        "RightMargin": 20,
+                                                                                        "ScrollDuration": 500,
+                                                                                        "ScrollMode": 1,
+                                                                                        "SeekOnClick": true,
+                                                                                        "ShowScrollbar": true,
+                                                                                        "TopMargin": 20,
+                                                                                        "UseCustomColours": false,
+                                                                                        "WordFont": "",
+                                                                                        "WordLineFont": ""
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "Spectrum": {
+                                                                                        "AmplitudeGravity": 100,
+                                                                                        "AmplitudeHoldTimeMs": 0,
+                                                                                        "AmplitudeMaxDb": 0,
+                                                                                        "AmplitudeMinDb": -60,
+                                                                                        "AmplitudesEnabled": false,
+                                                                                        "AxisFont": "",
+                                                                                        "BandCount": 80,
+                                                                                        "BarSections": 1,
+                                                                                        "BarSpacing": 1,
+                                                                                        "DrawStyle": 0,
+                                                                                        "FftSize": 8192,
+                                                                                        "FillSpectrum": true,
+                                                                                        "GradientOrientation": 0,
+                                                                                        "Interpolate": true,
+                                                                                        "LabelMode": 0,
+                                                                                        "MaxFrequencyHz": 25000,
+                                                                                        "MaxNote": 125,
+                                                                                        "MinFrequencyHz": 50,
+                                                                                        "MinNote": 0,
+                                                                                        "PeakGravity": 50,
+                                                                                        "PeakHoldTimeMs": 500,
+                                                                                        "PeaksEnabled": true,
+                                                                                        "PitchHz": 440,
+                                                                                        "SectionSpacing": 1,
+                                                                                        "ShowBlackKeys": false,
+                                                                                        "ShowBottomLabels": true,
+                                                                                        "ShowHorizontalGrid": true,
+                                                                                        "ShowLeftLabels": false,
+                                                                                        "ShowRightLabels": true,
+                                                                                        "ShowTooltip": false,
+                                                                                        "ShowTopLabels": false,
+                                                                                        "ShowVerticalGrid": false,
+                                                                                        "ShowWhiteKeys": false,
+                                                                                        "Transpose": 0,
+                                                                                        "UpdateFps": 40,
+                                                                                        "UseCustomColours": false,
+                                                                                        "WindowFunction": 0
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "PlaybackQueue": {
+                                                                            "AlternatingRows": false,
+                                                                            "IconHeight": 36,
+                                                                            "IconWidth": 36,
+                                                                            "LeftScript": "%title%$crlf()%album%",
+                                                                            "RightScript": "%duration%",
+                                                                            "ShowCurrent": true,
+                                                                            "ShowHeader": true,
+                                                                            "ShowIcon": true,
+                                                                            "ShowScrollbar": true
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "StatusBar": {
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "Playlist": {
+                                                    "Columns": "8:132|3|1|7:2",
+                                                    "HeaderState": "AAAAVXjaY2BgYGFgYBAB4iwolmGAiIEAExAzAjEzSMx+wyYxpxOR3Pa38n1f7jVfDqd3X64CsUAKGf4DAQDovxWU",
+                                                    "ID": "e7b43af6936242dbb8d0236afda9a15d",
+                                                    "Preset": 0,
+                                                    "SingleMode": false
+                                                }
+                                            },
+                                            {
+                                                "PlaylistManager": {
+                                                    "ActivateOnSelection": false,
+                                                    "State": "AAAA/wAAAAAAAAABAAAAAP////8BAAAAAAAAAAAAAAAEDAAAAAIAAAADAAAAZAAAAAIAAABkAAABGAAAAAQBAQAAAAAAAAEAAAADAAAAZP////8AAACEAAAAAAAAAAQAAADLAAAAAQAAAAEAAABNAAAAAQAAAAMAAAAAAAAAAQAAAAMAAAAAAAAAAQAAAAMAAAPoAAAAAAAAAAAAAAAAAAAAAAAAAAAB"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "ArtworkPanel": {
+                                        "CoverAlignment": 132,
+                                        "CoverType": 0,
+                                        "FadeCoverChanges": false,
+                                        "FadeDurationMs": 1000,
+                                        "KeepAspectRatio": true
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "WindowSize": {
+        "Height": 792,
+        "Width": 1050
+    }
+}
