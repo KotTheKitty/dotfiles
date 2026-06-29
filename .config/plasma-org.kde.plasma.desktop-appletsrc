@@ -46,7 +46,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][120][Wallpaper][org.kde.image][General]
-Image=file:///home/kot/Images/assets/bg/n/4d485a22afe14a67f60ba7ddf68fc6521d78cf0c7f90a1afe714ed3c88f3e4cf.png
+Image=file:///home/kot/Images/assets/bg/n/horizontal/4d485a22afe14a67f60ba7ddf68fc6521d78cf0c7f90a1afe714ed3c88f3e4cf.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][121]
@@ -139,7 +139,7 @@ DialogWidth=810
 
 [Containments][121][Applets][254][Configuration][General]
 groupingStrategy=0
-launchers=applications:kitty.desktop,applications:librewolf.desktop,preferred://filemanager
+launchers=applications:librewolf.desktop,preferred://filemanager,applications:kitty.desktop
 middleClickAction=Close
 showOnlyCurrentDesktop=false
 sortingStrategy=2
@@ -177,7 +177,7 @@ DialogWidth=810
 [Containments][121][Applets][286][Configuration][General]
 defaultUrl=http://localhost:8880
 enableNavigationBar=false
-favIcon=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAH1JREFUWIXt0UEOgDAIRFHiyTy6N6sb3WBqCwxDop2E9X8JImtrzx0islcC2nVlkKaODtEAOqQHoEFGgHTILCANYgXAIV4ADBIFhCEogBuCBrxCNouMtc+8wBxGAdzhKCAc9gJgYSsAHp4FpIVHgPRwD0ALawA9fK8svPbPnYKBCCBG8Iw9AAAAAElFTkSuQmCC
+favIcon=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAADZJREFUWIXtzsEJADAIBEFj/z1rAwFByCuzT/FgIvR753KrxWa9z+H5eQAAAAAAAAAAAAAAUgNijwIwoRo13AAAAABJRU5ErkJggg==
 icon=music-library
 privateBrowsing=false
 url=http://localhost:8880/
@@ -228,7 +228,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][216][Applets][219][Configuration][General]
-launchers=applications:kitty.desktop,preferred://filemanager,applications:librewolf.desktop
+launchers=preferred://filemanager,applications:librewolf.desktop,applications:kitty.desktop
 sortingStrategy=2
 
 [Containments][216][Applets][220]
@@ -299,7 +299,6 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][216][Applets][221][Applets][233][Configuration][General]
-currentTab=streams
 migrated=true
 
 [Containments][216][Applets][221][Applets][234]
@@ -654,7 +653,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][287][Applets][290][Configuration][General]
-launchers=applications:kitty.desktop,preferred://filemanager,applications:librewolf.desktop
+launchers=preferred://filemanager,applications:librewolf.desktop,applications:kitty.desktop
 sortingStrategy=2
 
 [Containments][287][Applets][291]

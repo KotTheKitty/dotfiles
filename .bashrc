@@ -22,7 +22,7 @@ PS2='> '
 
 
 echo
-echo -e "\x1b[35;1mWelcome to the Terminal UwU!\x1b[0m"
+echo -e "        \x1b[35;1mWelcome to the Terminal >w<\x1b[0m"
 
 fastfetch
 

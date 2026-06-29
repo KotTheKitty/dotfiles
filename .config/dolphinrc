@@ -18,3 +18,6 @@ IconSize=16
 
 [PreviewSettings]
 Plugins=appimagethumbnail,glycin-heif,comicbookthumbnail,gsf-office,kraorathumbnail,opendocumentthumbnail,directorythumbnail,ebookthumbnail,windowsexethumbnail,ffmpegthumbnailer,audiothumbnail,blenderthumbnail,cursorthumbnail,fontthumbnail,ffmpegthumbs,djvuthumbnail,mobithumbnail,gsthumbnail,rawthumbnail,glycin-image-rs,glycin-svg,imagethumbnail,exrthumbnail,jpegthumbnail,windowsimagethumbnail,svgthumbnail,glycin-jxl
+
+[VersionControl]
+enabledPlugins=Git
