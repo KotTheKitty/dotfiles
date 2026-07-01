@@ -2,5 +2,5 @@
 Source=Times
 
 [Times]
-SunsetStart=21:00:00
+SunsetStart=20:00:00
 TransitionDuration=7200

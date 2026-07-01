@@ -81,7 +81,7 @@
                                                     "Widgets": [
                                                         {
                                                             "SplitterVertical": {
-                                                                "State": "AAAA/wAAAAEAAAACAAACHgAAAJYA/////wEAAAACAA==",
+                                                                "State": "AAAA/wAAAAEAAAACAAACMQAAAIMA/////wEAAAACAA==",
                                                                 "Widgets": [
                                                                     {
                                                                         "SplitterVertical": {
@@ -92,9 +92,9 @@
                                                                                         "Alignment": 132,
                                                                                         "BaseFont": "",
                                                                                         "BottomMargin": 20,
-                                                                                        "CentreFirstSyncedLine": false,
+                                                                                        "CentreFirstSyncedLine": true,
                                                                                         "CentreLastSyncedLine": true,
-                                                                                        "EdgeFadeMode": 0,
+                                                                                        "EdgeFadeMode": 1,
                                                                                         "EdgeFadeSize": 10,
                                                                                         "LeftMargin": 20,
                                                                                         "LineFont": "",
@@ -102,10 +102,10 @@
                                                                                         "NoLyricsScript": "[Artiste: %artist%$crlf(2)][Album: %album%$crlf(2)]Titre: %title%",
                                                                                         "ProgressFill": 0,
                                                                                         "RightMargin": 20,
-                                                                                        "ScrollDuration": 500,
-                                                                                        "ScrollMode": 1,
+                                                                                        "ScrollDuration": 1000,
+                                                                                        "ScrollMode": 2,
                                                                                         "SeekOnClick": true,
-                                                                                        "ShowScrollbar": true,
+                                                                                        "ShowScrollbar": false,
                                                                                         "TopMargin": 20,
                                                                                         "UseCustomColours": false,
                                                                                         "WordFont": "",
@@ -135,7 +135,7 @@
                                                                                         "MinNote": 0,
                                                                                         "PeakGravity": 50,
                                                                                         "PeakHoldTimeMs": 500,
-                                                                                        "PeaksEnabled": true,
+                                                                                        "PeaksEnabled": false,
                                                                                         "PitchHz": 440,
                                                                                         "SectionSpacing": 1,
                                                                                         "ShowBlackKeys": false,
@@ -182,7 +182,7 @@
                                             {
                                                 "Playlist": {
                                                     "Columns": "8:132|3|1|7:2",
-                                                    "HeaderState": "AAAAVXjaY2BgYGFgYBABYk0oBrFBYiDABMSMQMwMErPfsEnM6UQkt/2tfN+Xe82Xw+ndl6tALJBChv9AAADCHxUK",
+                                                    "HeaderState": "AAAAVXjaY2BgYGFgYBAB4iwolmGAiIEAExAzAjEzSMx+wyYxpxOR3Pa38n1f7jVfDqd3X64CsUAKGf4DAQDovxWU",
                                                     "ID": "e7b43af6936242dbb8d0236afda9a15d",
                                                     "Preset": 0,
                                                     "SingleMode": false

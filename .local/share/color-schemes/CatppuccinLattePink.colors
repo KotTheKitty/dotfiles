@@ -1,11 +1,9 @@
 [ColorEffects:Disabled]
-ChangeSelectionColor=
 Color=239, 241, 245
 ColorAmount=0.30000000000000004
 ColorEffect=2
 ContrastAmount=0.1
 ContrastEffect=0
-Enable=
 IntensityAmount=-1
 IntensityEffect=0
 
@@ -119,56 +117,18 @@ ForegroundPositive=64, 160, 43
 ForegroundVisited=136, 57, 239
 
 [General]
-ColorSchemeHash=a8b4100f66d31ffa3083267468fcc97cec61e6df
-TerminalApplication=kitty
-TerminalService=kitty.desktop
-UseSystemBell=true
-XftAntialias=true
-XftHintStyle=hintfull
-XftSubPixel=none
-fixed=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-font=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-menuFont=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-smallestReadableFont=Rubik,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-toolBarFont=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+ColorScheme=CatppuccinLattePink
+Name=Catppuccin Latte Pink
+accentActiveTitlebar=false
+shadeSortColumn=true
 
 [KDE]
-AutomaticLookAndFeel=true
-AutomaticLookAndFeelOnIdle=false
-DefaultDarkLookAndFeel=Catppuccin Mocha Pink Custom
-DefaultLightLookAndFeel=Catppuccin Latte Pink Custom
-LookAndFeelPackage=Catppuccin Latte Pink Custom
-ShowDeleteCommand=false
 contrast=4
-frameContrast=0.2
-
-[KFileDialog Settings]
-Allow Expansion=false
-Automatically select filename extension=false
-Breadcrumb Navigation=false
-Decoration position=2
-Preview Width=193
-Show Full Path=false
-Show Inline Previews=true
-Show Preview=false
-Show Speedbar=true
-Show hidden files=true
-Sort by=Name
-Sort directories first=true
-Sort hidden files last=false
-Sort reversed=false
-Speedbar Width=116
-View Style=DetailTree
-
-[PreviewSettings]
-EnableRemoteFolderThumbnail=false
-MaximumRemoteSize=0
 
 [WM]
-activeBackground=239,241,245
-activeBlend=76,79,105
-activeFont=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
-activeForeground=76,79,105
-inactiveBackground=220,224,232
-inactiveBlend=108,111,133
-inactiveForeground=108,111,133
+activeBackground=239, 241, 245
+activeBlend=76, 79, 105
+activeForeground=76, 79, 105
+inactiveBackground=220, 224, 232
+inactiveBlend=108, 111, 133
+inactiveForeground=108, 111, 133

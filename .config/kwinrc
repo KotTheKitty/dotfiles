@@ -31,7 +31,7 @@ CommandWindow2=Activate and raise
 
 [NightColor]
 Active=true
-NightTemperature=1000
+NightTemperature=2000
 
 [Plugins]
 blurEnabled=true
