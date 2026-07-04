@@ -1,6 +1,8 @@
 [General]
 autoSaveImage=true
 clipboardGroup=PostScreenshotCopyImage
+launchAction=DoNotTakeScreenshot
+ocrLanguages=eng,fra
 useReleaseToCapture=true
 
 [GuiConfig]
@@ -12,10 +14,14 @@ videoIncludePointer=false
 imageCompressionQuality=100
 imageFilenameTemplate=Plasma_<yyyy><MM><dd>_<HH><mm><ss>_<title>
 imageSaveLocation=file:///home/kot/Images/CopiesEcran
-lastImageSaveLocation=file:///home/kot/Images/CopiesEcran/Plasma_20260701_140722.png
+lastImageSaveLocation=file:///home/kot/Images/CopiesEcran/Plasma_20260703_210436.png
 translatedScreenshotsFolder=Copies d'écran
 
 [VideoSave]
 translatedScreencastsFolder=Copies d'écran
 videoFilenameTemplate=Plasma_<yyyy><MM><dd>_<HH><mm><ss>_<title>
 videoSaveLocation=file:///home/kot/Vidéos/CopiesEcran
+
+[ViewerWindow]
+3 screens: Height=492
+3 screens: Width=892
