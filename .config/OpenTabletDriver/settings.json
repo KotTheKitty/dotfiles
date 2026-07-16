@@ -1,5 +1,5 @@
 {
-  "Revision": "0.6.6.2",
+  "Revision": "0.6.7",
   "Profiles": [
     {
       "Tablet": "Wacom CTL-4100",
@@ -342,12 +342,12 @@
               "Value": 1.0
             },
             {
-              "Property": "TiltSmoothingFactor",
-              "Value": 1.0
-            },
-            {
               "Property": "Frequency",
               "Value": 1000.0
+            },
+            {
+              "Property": "TiltSmoothingFactor",
+              "Value": 5.0
             }
           ],
           "Enable": false
@@ -391,19 +391,19 @@
           "Settings": [
             {
               "Property": "OuterRadius",
-              "Value": 5.0
+              "Value": 20.0
             },
             {
               "Property": "InnerRadius",
-              "Value": 0.0
+              "Value": 10.0
             },
             {
               "Property": "SmoothingCoefficient",
-              "Value": 0.95
+              "Value": 0.1
             },
             {
               "Property": "SoftKneeScale",
-              "Value": 1.0
+              "Value": 0.0
             },
             {
               "Property": "SmoothingLeakCoefficient",
@@ -479,6 +479,52 @@
             }
           ],
           "Enable": false
+        },
+        {
+          "Path": "Kuuube_s_Chatter_Exterminator.Kuuube_s_CHATTER_EXTERMINATOR_SMOOTH",
+          "Settings": [
+            {
+              "Property": "Chatter_Extermination_Strength",
+              "Value": 50.0
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "Kuuube_s_Chatter_Exterminator.Kuuube_s_CHATTER_EXTERMINATOR_RAW",
+          "Settings": [
+            {
+              "Property": "Chatter_Extermination_Strength",
+              "Value": 2.0
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "RadialFollow.RadialFollowSmoothingTabletSpace",
+          "Settings": [
+            {
+              "Property": "OuterRadius",
+              "Value": 1.0
+            },
+            {
+              "Property": "InnerRadius",
+              "Value": 1.0
+            },
+            {
+              "Property": "SmoothingCoefficient",
+              "Value": 0.1
+            },
+            {
+              "Property": "SoftKneeScale",
+              "Value": 0.0
+            },
+            {
+              "Property": "SmoothingLeakCoefficient",
+              "Value": 0.0
+            }
+          ],
+          "Enable": false
         }
       ],
       "AbsoluteModeSettings": {
@@ -490,13 +536,13 @@
           "Rotation": 0.0
         },
         "Tablet": {
-          "Width": 67.0,
-          "Height": 37.7,
+          "Width": 76.0,
+          "Height": 42.75,
           "X": 76.0,
-          "Y": 19.0,
+          "Y": 25.0,
           "Rotation": 0.0
         },
-        "EnableClipping": true,
+        "EnableClipping": false,
         "EnableAreaLimiting": false,
         "LockAspectRatio": false
       },
@@ -522,21 +568,37 @@
         "EraserButton": null,
         "PenButtons": [
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseScrollBinding",
             "Settings": [
               {
-                "Property": "Key",
-                "Value": "U"
+                "Property": "Direction",
+                "Value": "Vertical"
+              },
+              {
+                "Property": "Interval",
+                "Value": 100
+              },
+              {
+                "Property": "Amount",
+                "Value": -120
               }
             ],
             "Enable": true
           },
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseScrollBinding",
             "Settings": [
               {
-                "Property": "Key",
-                "Value": "J"
+                "Property": "Direction",
+                "Value": "Vertical"
+              },
+              {
+                "Property": "Interval",
+                "Value": 100
+              },
+              {
+                "Property": "Amount",
+                "Value": 120
               }
             ],
             "Enable": true
@@ -587,8 +649,10 @@
         "MouseButtons": [],
         "MouseScrollUp": null,
         "MouseScrollDown": null,
+        "WheelBindings": [],
         "DisablePressure": false,
-        "DisableTilt": false
+        "DisableTilt": false,
+        "EnableDragBindings": false
       }
     }
   ],

@@ -9,6 +9,24 @@ Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Basculer vers la derni
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Passer à la disposition de clavier suivante
 _k_friendly_name=Commutateur de dispositions de clavier
 
+[com.github.wwmm.easyeffects]
+_k_friendly_name=Easy Effects
+global bypass=none,Meta+Ctrl+E,global bypass
+microphone monitoring=none,Meta+Ctrl+I,microphone monitoring
+
+[juk]
+_k_friendly_name=JuK
+back=Ctrl+Alt+Left,Ctrl+Alt+Left,Précédent
+forward=Ctrl+Alt+Right,Ctrl+Alt+Right,Suivante
+forwardAlbum=Ctrl+Alt+Up,Ctrl+Alt+Up,Lire le prochain album
+mute=Ctrl+Alt+M,Ctrl+Alt+M,Couper le son
+playPause=Ctrl+Alt+P,Ctrl+Alt+P,Lire / mettre en pause
+seekBack=Ctrl+Alt+Shift+Left,Ctrl+Alt+Shift+Left,Rechercher en arrière
+seekForward=Ctrl+Alt+Shift+Right,Ctrl+Alt+Shift+Right,Rechercher en avant
+stop=Ctrl+Alt+S,Ctrl+Alt+S,Arrêter
+volumeDown=Ctrl+Alt+Shift+Down,Ctrl+Alt+Shift+Down,Diminuer le volume
+volumeUp=Ctrl+Alt+Shift+Up,Ctrl+Alt+Shift+Up,Augmenter le volume
+
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Activer ou désactiver le lecteur d'écran
 _k_friendly_name=Accessibilité
@@ -19,6 +37,7 @@ newAudio=none,none,Nouvelle alarme audio
 newCommand=none,none,Nouvelle alarme par une commande
 newDisplay=none,none,Nouvelle alarme affichée
 newEmail=none,none,Nouvelle alarme par courriel
+spread=none,none,Étendre les fenêtres
 stopAudio=none,none,Arrêter de lire
 
 [kmix]
@@ -29,7 +48,7 @@ decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Diminuer le volume de 
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Augmenter le volume du microphone
 increase_volume=Volume Up,Volume Up,Augmenter le volume
 increase_volume_small=Shift+Volume Up,Shift+Volume Up,Augmenter le volume de 1 %
-mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Couper le son du microphone
+mic_mute=Microphone Mute\tMeta+Volume Mute\tMeta+Alt+M,Microphone Mute\tMeta+Volume Mute,Couper le son du microphone
 mute=Volume Mute\tMeta+Alt+Up,Volume Mute,Muet
 push_to_talk=none,none,Appuyer pour parler
 
@@ -74,6 +93,7 @@ MoveZoomUp=none,none,Déplacer la zone de zoom vers le haut
 Overview=Meta+W,Meta+W,Basculer vers l'aperçu
 Setup Window Shortcut=none,none,Raccourci de configuration pour une fenêtre
 Show Desktop=Meta+D,Meta+D,Coup d'œil sur le bureau
+Suspend Compositing=Alt+Shift+F12,Alt+Shift+F12,Désactiver la composition
 Switch One Desktop Down=Meta+Ctrl+Down,Meta+Ctrl+Down,Passer au bureau du dessous
 Switch One Desktop Up=Meta+Ctrl+Up,Meta+Ctrl+Up,Passer au bureau du dessus
 Switch One Desktop to the Left=Meta+Ctrl+Left,Meta+Ctrl+Left,Passer au bureau de gauche
@@ -156,8 +176,8 @@ Window One Desktop Down=Meta+Ctrl+Shift+Down,Meta+Ctrl+Shift+Down,Envoyer la fen
 Window One Desktop Up=Meta+Ctrl+Shift+Up,Meta+Ctrl+Shift+Up,Envoyer la fenêtre sur le bureau au-dessus
 Window One Desktop to the Left=Meta+Ctrl+Shift+Left,Meta+Ctrl+Shift+Left,Envoyer la fenêtre sur le bureau à gauche
 Window One Desktop to the Right=Meta+Ctrl+Shift+Right,Meta+Ctrl+Shift+Right,Envoyer la fenêtre sur le bureau à droite
-Window One Screen Down=none,none,Déplacer la fenêtre d'un écran vers le bas
-Window One Screen Up=none,none,Déplacer la fenêtre d'un écran vers le haut
+Window One Screen Down=Meta+Alt+Shift+Down,none,Déplacer la fenêtre d'un écran vers le bas
+Window One Screen Up=Meta+Alt+Shift+Up,none,Déplacer la fenêtre d'un écran vers le haut
 Window One Screen to the Left=Meta+Alt+Shift+Left,none,Déplacer la fenêtre d'un écran vers la gauche
 Window One Screen to the Right=Meta+Alt+Shift+Right,none,Déplacer la fenêtre d'un écran vers la droite
 Window Operations Menu=Alt+F3,Alt+F3,Menu « Fenêtre »
@@ -176,6 +196,7 @@ Window Quick Tile Top Right=none,none,Mettre rapidement en mosaïque une fenêtr
 Window Raise=none,none,Dérouler la fenêtre
 Window Resize=Meta+Shift+R,none,Redimensionner la fenêtre
 Window Restore=Meta+Backspace,Meta+Backspace,Restaurer la fenêtre
+Window Shade=none,none,Enrouler une fenêtre
 Window Shrink Horizontal=none,none,Réduire la fenêtre horizontalement
 Window Shrink Vertical=none,none,Réduire la fenêtre verticalement
 Window to Desktop 1=Meta+!,none,Envoyer la fenêtre sur le bureau 1
@@ -296,17 +317,32 @@ toggle do not disturb=none,none,Basculer « Ne pas déranger »
 [services][kitty.desktop]
 _launch=Ctrl+Alt+T\tMeta+Return
 
+[services][net.local.xdg-open-2.desktop]
+_launch=Meta+Alt+Shift+G
+
+[services][net.local.xdg-open-3.desktop]
+_launch=Meta+Alt+Shift+E
+
+[services][net.local.xdg-open-4.desktop]
+_launch=Meta+Alt+Shift+Y
+
+[services][net.local.xdg-open.desktop]
+_launch=Meta+Alt+Shift+I\tMeta+Alt+Shift+M
+
+[services][org.kde.krunner.desktop]
+_launch=Search\tAlt+Space\tAlt+F2\tMeta+R
+
 [services][org.kde.spectacle.desktop]
 ActiveWindowScreenShot=Ctrl+Print
 CurrentMonitorScreenShot=Shift+Print
 FullScreenScreenShot=Ctrl+Shift+Print
 OpenWithoutScreenshot=none
-RecordRegion=Meta+R\tMeta+Print
+RecordRegion=Meta+Print
 RecordScreen=Meta+Shift+Print
 RecordWindow=Meta+Ctrl+Print
-RectangularRegionScreenShot=Print
+RectangularRegionScreenShot=Print\tMeta+Shift+S
 WindowUnderCursorScreenShot=none
-_launch=\tMeta+Shift+S
+_launch=none
 
 [wacomtablet]
 Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Faire correspondre avec le plein écran
