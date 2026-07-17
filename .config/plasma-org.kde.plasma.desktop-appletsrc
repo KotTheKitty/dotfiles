@@ -181,7 +181,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][121][Applets][254][Configuration][General]
-launchers=applications:librewolf.desktop,preferred://filemanager,applications:kitty.desktop
+launchers=preferred://filemanager,applications:kitty.desktop
 middleClickAction=Close
 showOnlyCurrentActivity=false
 sortingStrategy=2
@@ -194,8 +194,8 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][121][Applets][255][Configuration]
-popupHeight=596
-popupWidth=677
+popupHeight=640
+popupWidth=312
 
 [Containments][121][Applets][255][Configuration][ConfigDialog]
 DialogHeight=630
@@ -248,7 +248,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][216][Applets][219][Configuration][General]
-launchers=preferred://filemanager,applications:librewolf.desktop,applications:kitty.desktop
+launchers=preferred://filemanager,applications:kitty.desktop
 middleClickAction=Close
 showOnlyCurrentActivity=false
 sortingStrategy=2
@@ -448,7 +448,7 @@ DialogWidth=810
 [Containments][241][Applets][260][Configuration][General]
 defaultUrl=https://www.imood.com/dashboard
 favIcon=https://www.imood.com/favicon.ico
-url=https://www.imood.com/login?from=https%3A%2F%2Fwww.imood.com%2Fdashboard
+url=https://www.imood.com/dashboard
 useDefaultUrl=true
 useMinViewWidth=false
 
@@ -681,7 +681,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][287][Applets][290][Configuration][General]
-launchers=preferred://filemanager,applications:librewolf.desktop,applications:kitty.desktop
+launchers=preferred://filemanager,applications:kitty.desktop
 middleClickAction=Close
 showOnlyCurrentActivity=false
 sortingStrategy=2
@@ -841,5 +841,5 @@ useDefaultUrl=true
 useMinViewWidth=false
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,69,desktop:/config,desktop:/Téléchargements/v3-hdmi-rpi4-aarch64-latest.img.xz,desktop:/Téléchargements/converted_gif.gif,desktop:/Téléchargements/2026-04,desktop:/backup,desktop:/Documents,desktop:/Téléchargements/social-stream-ninja.xpi,desktop:/Téléchargements/2026-05,desktop:/Téléchargements,desktop:/Musique,desktop:/Téléchargements/Reddit - All in One (08.Nov.2025).png,desktop:/data,desktop://qemu-8.2.2,desktop:/lockplasma.sh,desktop:/Beat Saber,desktop:/Téléchargements/sqlite-tools-linux-x64-3530200.zip,desktop:/Téléchargements/catppuccin-mocha.theme,desktop:/Téléchargements/Exposing Mintpaws .odt,desktop:/Téléchargements/Screen Shot 2026-06-18 at 18.57.36.png,desktop:/README.md,desktop:/Téléchargements/v3-hdmi-rpi4-aarch64-latest.img,desktop:/Téléchargements/oyasumi-linux.tar.zst,desktop:/Téléchargements/hydrus-companion-master,desktop:/Téléchargements/assets_SE_meow.ogg,desktop:/Téléchargements/STOP.gif,desktop:/Téléchargements/ssstwitter.com_1781835630447.mp4,desktop:/Téléchargements/utopianvee-260619-1834,desktop:/Téléchargements/nitter 2021.02.08.png,desktop:/Public,desktop:/Software,desktop:/Téléchargements/2026-03,desktop:/Téléchargements/palette.json,desktop:/Téléchargements/login,desktop:/Téléchargements/zaaru (EXPLICIT).png,desktop:/Téléchargements/2026-01,desktop:/Téléchargements/HLH5UGraEAA2vPg.jpeg,desktop:/Téléchargements/compose.yaml,desktop:/Téléchargements/sqlite-tools-linux-x64-3530200,desktop:/MusiqueArchive,desktop:/Téléchargements/2026-02,desktop:/Téléchargements/nitter 2021.02.08(1).png,desktop:/Téléchargements/22. Version 1.7.zip,desktop:/gameconfig,desktop:/Roms,desktop:/Téléchargements/nitter tweet parser - fetches tags - 2020-07-30.png,desktop:/LICENSE,desktop:/Vidéos,desktop:/Téléchargements/signal-2026-06-20-19-40-46-831_002.jpg,desktop:/vmware,desktop:/Games,desktop:/Téléchargements/Screen Shot 2026-06-18 at 18.58.28.png,desktop:/Téléchargements/1a308d16560e03c8a42ae33a8a771065f05463e63a195c602289a801004cba5d.png,desktop:/Téléchargements/q3_50111670068200510.zip,desktop:/Téléchargements/fed1123fdc8cbe90d77d68e3b103a231338eeedfe50360be0f6a6b22a4be5bbe.png,desktop:/Téléchargements/Oyasumi,desktop:/Téléchargements/2025-12,desktop:/Téléchargements/schoolnvme,desktop:/Téléchargements/utopianvee-260619-1834-part2,desktop:/Téléchargements/2026-06,desktop:/Téléchargements/social_stream-main.zip,desktop:/Téléchargements/x and twitter post parser using fixupx-2024-11-21(1).png,desktop:/RomsOld,desktop:/Téléchargements/x and twitter post parser using fixupx-2024-11-21.png,desktop:/Musique2,desktop:/Images,desktop:/unlock.sh,desktop:/CopiesÉcran,desktop:/Téléchargements/utopianvee-260619-1834-part1,desktop:/steamvr,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,45,desktop://install_millennium.sh,desktop://documents,desktop://romsold,desktop://backup,desktop://dotfiles_backup_2026-05-22_18-19-55,desktop://musique,desktop://xn--vidos-dsa,desktop://hyprland.lua.bak,desktop://plasmapackages.txt,desktop://virt.txt,desktop://install_signal_theme.sh,desktop://xn--copiescran-g7a,desktop://data,desktop://xn--tlchargements-bhbb,desktop://readme.md,desktop://config,desktop://install-dms-shell.sh,desktop://openrgb,desktop://gameconfig,desktop://images,desktop://towerunite_meowby_workshoprig_v3.dae,desktop://games,desktop://vmware,desktop://license,desktop://steamvr,desktop://reencode.sh,desktop://qemu-8.2.2.tar.xz,desktop://pacstrap.txt,desktop://package-lock.json,desktop://software,desktop://qemu-anti-detection,desktop://pkglist.txt,desktop://public,desktop://meowbytexture.png,desktop://musique2,desktop://hydrus_export,desktop://unlock.sh,desktop://projets,desktop://musiquearchive,desktop://hyprland.conf,desktop://lockplasma.sh,desktop://alcom,desktop://output.gif,desktop://roms,desktop://material_diffuse.png
+itemsOnDisabledScreens=1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,45,desktop://lockplasma.sh,desktop://musiquearchive,desktop://unlock.sh,desktop://config,desktop://xn--tlchargements-bhbb,desktop://xn--vidos-dsa,desktop://install_signal_theme.sh,desktop://hyprland.lua.bak,desktop://dotfiles_backup_2026-05-22_18-19-55,desktop://vmware,desktop://install_millennium.sh,desktop://gameconfig,desktop://xn--copiescran-g7a,desktop://package-lock.json,desktop://romsold,desktop://steamvr,desktop://pkglist.txt,desktop://software,desktop://backup,desktop://documents,desktop://openrgb,desktop://reencode.sh,desktop://alcom,desktop://license,desktop://output.gif,desktop://hyprland.conf,desktop://musique2,desktop://install-dms-shell.sh,desktop://plasmapackages.txt,desktop://towerunite_meowby_workshoprig_v3.dae,desktop://pacstrap.txt,desktop://roms,desktop://material_diffuse.png,desktop://hydrus_export,desktop://virt.txt,desktop://qemu-anti-detection,desktop://readme.md,desktop://musique,desktop://qemu-8.2.2.tar.xz,desktop://data,desktop://projets,desktop://images,desktop://public,desktop://games,desktop://meowbytexture.png,0,c44feb2e-ccdc-426f-bcaf-a64fd11ac137,77,desktop:/Téléchargements/2026-06,desktop:/Téléchargements/Screen Shot 2026-06-18 at 18.58.28.png,desktop:/Téléchargements/22. Version 1.7.zip,desktop:/Téléchargements/ssstwitter.com_1781835630447.mp4,desktop:/Téléchargements/HLH5UGraEAA2vPg.jpeg,desktop:/Téléchargements/oyasumi-linux.tar.zst,desktop:/Téléchargements/signal-2026-06-20-19-40-46-831_002.jpg,desktop:/Téléchargements/2026-02,desktop:/Téléchargements/compose.yaml,desktop:/backup,desktop:/lockplasma.sh,desktop:/AppImages,desktop:/gameconfig,desktop:/RomsOld,desktop:/Musique2,desktop:/data,desktop:/Téléchargements/Screen Shot 2026-06-18 at 18.57.36.png,desktop:/Téléchargements/palette.json,desktop:/vmware,desktop:/Téléchargements/utopianvee-260619-1834-part2,desktop:/Images,desktop:/Téléchargements/q3_50111670068200510.zip,desktop:/Vidéos,desktop:/Téléchargements/hydrus-companion-master,desktop:/MusiqueArchive,desktop:/LICENSE,desktop:/unlock.sh,desktop:/Documents,desktop:/Téléchargements/x and twitter post parser using fixupx-2024-11-21(1).png,desktop:/Beat Saber,desktop:/osu!.desktop,desktop:/Musique,desktop:/Unity,desktop:/Téléchargements,desktop:/Téléchargements/1a308d16560e03c8a42ae33a8a771065f05463e63a195c602289a801004cba5d.png,desktop:/config,desktop:/Games,desktop:/Téléchargements/schoolnvme,desktop:/Téléchargements/sqlite-tools-linux-x64-3530200,desktop:/Téléchargements/sqlite-tools-linux-x64-3530200.zip,desktop:/Téléchargements/utopianvee-260619-1834,desktop:/Téléchargements/converted_gif.gif,desktop:/OyasumiVR,desktop:/Téléchargements/fed1123fdc8cbe90d77d68e3b103a231338eeedfe50360be0f6a6b22a4be5bbe.png,desktop:/Téléchargements/v3-hdmi-rpi4-aarch64-latest.img.xz,desktop:/Téléchargements/Reddit - All in One (08.Nov.2025).png,desktop:/Téléchargements/x and twitter post parser using fixupx-2024-11-21.png,desktop:/Téléchargements/2026-05,desktop:/Téléchargements/assets_SE_meow.ogg,desktop:/CopiesÉcran,desktop:/Téléchargements/utopianvee-260619-1834-part1,desktop:/Téléchargements/nitter 2021.02.08.png,desktop:/Téléchargements/Exposing Mintpaws .odt,desktop:/Téléchargements/nitter tweet parser - fetches tags - 2020-07-30.png,desktop:/steamvr,desktop:/Téléchargements/Oyasumi,desktop:/Téléchargements/2026-03,desktop://qemu-8.2.2,desktop:/RomsTowerUnite,desktop:/Téléchargements/2026-04,desktop:/Téléchargements/zaaru (EXPLICIT).png,desktop:/Téléchargements/login,desktop:/Téléchargements/social_stream-main.zip,desktop:/Téléchargements/2025-12,desktop:/Téléchargements/2026-01,desktop:/Mumble-2026-07-15-18-56-04-100.64.226.70-Mixdown.opus,desktop:/README.md,desktop:/Téléchargements/catppuccin-mocha.theme,desktop:/Téléchargements/nitter 2021.02.08(1).png,desktop:/Software,desktop:/hydrus_export,desktop:/Public,desktop:/steam-guard-extractor-linux.sh,desktop:/Roms,desktop:/Téléchargements/STOP.gif,desktop:/Téléchargements/social-stream-ninja.xpi,desktop:/Téléchargements/v3-hdmi-rpi4-aarch64-latest.img
 screenMapping=http://desktop//Beat Saber,1,c44feb2e-ccdc-426f-bcaf-a64fd11ac137

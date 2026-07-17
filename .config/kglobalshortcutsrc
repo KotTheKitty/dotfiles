@@ -48,7 +48,7 @@ decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Diminuer le volume de 
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Augmenter le volume du microphone
 increase_volume=Volume Up,Volume Up,Augmenter le volume
 increase_volume_small=Shift+Volume Up,Shift+Volume Up,Augmenter le volume de 1 %
-mic_mute=Microphone Mute\tMeta+Volume Mute\tMeta+Alt+M,Microphone Mute\tMeta+Volume Mute,Couper le son du microphone
+mic_mute=Microphone Mute\tMeta+Volume Mute\tMeta+Alt+M\tMeta+Alt+Del,Microphone Mute\tMeta+Volume Mute,Couper le son du microphone
 mute=Volume Mute\tMeta+Alt+Up,Volume Mute,Muet
 push_to_talk=none,none,Appuyer pour parler
 
