@@ -72,7 +72,7 @@ ForegroundInactive=17, 17, 27
 ForegroundLink=17, 17, 27
 ForegroundNegative=17, 17, 27
 ForegroundNeutral=17, 17, 27
-ForegroundNormal=220,224,232
+ForegroundNormal=17, 17, 27
 ForegroundPositive=17, 17, 27
 ForegroundVisited=17, 17, 27
 
@@ -135,9 +135,9 @@ toolBarFont=Rubik,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 [KDE]
 AutomaticLookAndFeel=true
 AutomaticLookAndFeelOnIdle=false
-DefaultDarkLookAndFeel=Catppuccin Mocha Pink Custom
-DefaultLightLookAndFeel=Catppuccin Latte Pink Custom
-LookAndFeelPackage=Catppuccin Latte Pink Custom
+DefaultDarkLookAndFeel=Catppuccin Mocha Pink (Kot)
+DefaultLightLookAndFeel=Catppuccin Latte Pink (Kot)
+LookAndFeelPackage=Catppuccin Latte Pink (Kot)
 ShowDeleteCommand=false
 contrast=4
 frameContrast=0.2

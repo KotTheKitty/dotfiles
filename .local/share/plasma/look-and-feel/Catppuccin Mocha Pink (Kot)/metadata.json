@@ -3,14 +3,14 @@
     "KPlugin": {
         "Authors": [
             {
-                "Email": "",
-                "Name": ""
+                "Email": "kot@kittykot.ca",
+                "Name": "Kot"
             }
         ],
         "Description": "",
-        "Id": "Catppuccin Latte Pink Custom",
+        "Id": "Catppuccin Mocha Pink (Kot)",
         "License": "",
-        "Name": "Catppuccin Latte Pink Custom",
+        "Name": "Catppuccin Mocha Pink (Kot)",
         "Website": ""
     },
     "Keywords": "Desktop;Workspace;Appearance;Look and Feel;",

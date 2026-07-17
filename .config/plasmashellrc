@@ -4,39 +4,39 @@ Number of Actions=0
 [PIMEventsPlugin]
 calendars=6,9,22,23,24,25,26,27,32,33,34,35,36,37
 
-[PlasmaViews][Panel 121]
+[PlasmaTransientsConfig]
+popupHeight=451
+popupWidth=810
+
+[PlasmaViews][Panel 317]
+alignment=132
 floating=1
 panelLengthMode=1
 panelOpacity=0
 panelVisibility=2
 shell=org.kde.plasma.desktop
 
-[PlasmaViews][Panel 121][Defaults]
+[PlasmaViews][Panel 317][Defaults]
 maxLength=2560
 minLength=2560
 offset=0
 thickness=50
 
-[PlasmaViews][Panel 121][Horizontal2560]
+[PlasmaViews][Panel 320]
 alignment=132
-
-[PlasmaViews][Panel 216]
 floating=0
 panelLengthMode=0
 panelOpacity=2
 panelVisibility=0
 shell=org.kde.plasma.desktop
 
-[PlasmaViews][Panel 216][Defaults]
-maxLength=2560
-minLength=2560
+[PlasmaViews][Panel 320][Defaults]
+maxLength=1050
+minLength=1050
 offset=0
 thickness=40
 
-[PlasmaViews][Panel 216][Horizontal2560]
-alignment=132
-
-[PlasmaViews][Panel 241]
+[PlasmaViews][Panel 343]
 alignment=1
 floating=1
 panelLengthMode=1
@@ -44,10 +44,13 @@ panelOpacity=2
 panelVisibility=2
 shell=org.kde.plasma.desktop
 
-[PlasmaViews][Panel 241][Defaults]
+[PlasmaViews][Panel 343][Defaults]
+maxLength=2560
+minLength=2560
+offset=0
 thickness=20
 
-[PlasmaViews][Panel 256]
+[PlasmaViews][Panel 348]
 alignment=2
 floating=1
 panelLengthMode=1
@@ -55,34 +58,39 @@ panelOpacity=2
 panelVisibility=2
 shell=org.kde.plasma.desktop
 
-[PlasmaViews][Panel 256][Defaults]
+[PlasmaViews][Panel 348][Defaults]
+maxLength=2560
+minLength=2560
+offset=0
 thickness=20
 
-[PlasmaViews][Panel 281]
+[PlasmaViews][Panel 366]
+alignment=132
 floating=1
 panelLengthMode=1
 panelOpacity=2
 panelVisibility=2
 shell=org.kde.plasma.desktop
 
-[PlasmaViews][Panel 281][Defaults]
+[PlasmaViews][Panel 366][Defaults]
+maxLength=2560
+minLength=2560
+offset=0
 thickness=20
 
-[PlasmaViews][Panel 287]
+[PlasmaViews][Panel 368]
+alignment=132
 floating=0
 panelLengthMode=0
 panelOpacity=2
 panelVisibility=2
 shell=org.kde.plasma.desktop
 
-[PlasmaViews][Panel 287][Defaults]
-maxLength=2560
-minLength=2560
+[PlasmaViews][Panel 368][Defaults]
+maxLength=1920
+minLength=1920
 offset=0
 thickness=40
-
-[PlasmaViews][Panel 287][Horizontal2560]
-alignment=132
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_font_settings.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_migrate_showseconds_setting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/folderview_fix_recursive_screenmapping.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_migrateiconsetting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/keyboardlayout_remove_shortcut.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/mediaframe_migrate_useBackground_setting.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/migrate_font_weights.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/taskmanager_configUpdate_wheelEnabled.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js

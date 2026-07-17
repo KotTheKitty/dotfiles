@@ -43,8 +43,10 @@ var layout = {
             "config": {
                 "/": {
                     "ItemGeometries-1050x1680": "",
+                    "ItemGeometries-1280x720": "",
                     "ItemGeometries-1600x900": "",
                     "ItemGeometries-1680x1050": "",
+                    "ItemGeometries-1920x1080": "",
                     "ItemGeometries-2560x1440": "",
                     "ItemGeometriesHorizontal": "",
                     "ItemGeometriesVertical": "",
@@ -60,8 +62,8 @@ var layout = {
                 "/General": {
                     "changedPositions": "{}",
                     "filterMimeTypes": "\\0",
-                    "lastResolution": "1600x900",
-                    "positions": "{\"1600x900\":[\"1\",\"14\"]}",
+                    "lastResolution": "1920x1080",
+                    "positions": "{\"1280x720\":[\"1\",\"11\"],\"1600x900\":[\"1\",\"14\"],\"1920x1080\":[\"1\",\"17\"]}",
                     "sortMode": "-1",
                     "url": "desktop:/Public/"
                 },
@@ -79,6 +81,7 @@ var layout = {
                 "/": {
                     "ItemGeometries-1050x1680": "",
                     "ItemGeometries-1280x720": "",
+                    "ItemGeometries-1680x1050": "",
                     "ItemGeometriesHorizontal": "",
                     "ItemGeometriesVertical": "",
                     "formfactor": "0",
@@ -108,7 +111,7 @@ var layout = {
                 {
                     "config": {
                         "/": {
-                            "popupHeight": "684",
+                            "popupHeight": "640",
                             "popupWidth": "312"
                         },
                         "/ConfigDialog": {
@@ -133,7 +136,7 @@ var layout = {
                             "DialogWidth": "810"
                         },
                         "/General": {
-                            "launchers": "applications:librewolf.desktop,preferred://filemanager,applications:kitty.desktop",
+                            "launchers": "preferred://filemanager,applications:kitty.desktop",
                             "middleClickAction": "Close",
                             "showOnlyCurrentActivity": "false",
                             "sortingStrategy": "2",
@@ -196,7 +199,7 @@ var layout = {
                             "DialogWidth": "810"
                         },
                         "/General": {
-                            "launchers": "preferred://filemanager,applications:librewolf.desktop,applications:kitty.desktop",
+                            "launchers": "preferred://filemanager,applications:kitty.desktop",
                             "middleClickAction": "Close",
                             "showOnlyCurrentActivity": "false",
                             "sortingStrategy": "2",
@@ -282,7 +285,7 @@ var layout = {
                         "/General": {
                             "defaultUrl": "https://www.imood.com/dashboard",
                             "favIcon": "https://www.imood.com/favicon.ico",
-                            "url": "https://www.imood.com/login?from=https%3A%2F%2Fwww.imood.com%2Fdashboard",
+                            "url": "https://www.imood.com/dashboard",
                             "useDefaultUrl": "true",
                             "useMinViewWidth": "false"
                         }
@@ -306,8 +309,8 @@ var layout = {
                 {
                     "config": {
                         "/": {
-                            "popupHeight": "113",
-                            "popupWidth": "390"
+                            "popupHeight": "221",
+                            "popupWidth": "546"
                         }
                     },
                     "plugin": "org.kde.plasma.windowlist"
@@ -449,7 +452,7 @@ var layout = {
                             "DialogWidth": "810"
                         },
                         "/General": {
-                            "launchers": "preferred://filemanager,applications:librewolf.desktop,applications:kitty.desktop",
+                            "launchers": "preferred://filemanager,applications:kitty.desktop",
                             "middleClickAction": "Close",
                             "showOnlyCurrentActivity": "false",
                             "sortingStrategy": "2",

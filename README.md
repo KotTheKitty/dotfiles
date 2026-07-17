@@ -1,10 +1,12 @@
 # kot's dotfiles! Useful to me when sharing between devices and available to everyone if you like my configuration.
 
+![Light Theme](https://raw.githubusercontent.com/KotTheKitty/dotfiles/refs/heads/main/.local/share/plasma/look-and-feel/Catppuccin%20Latte%20Pink%20(Kot)/contents/previews/fullscreenpreview.jpg)
+
 Private assets will be missing, but these are replacable with your own.
 
 Some paths are absolute due to incompatibility (such as in hyprqt6engine.conf). Please verify and change them.
 
-__You may want to install [Catppuccin](https://catppuccin.com/) for things like [Plasma](https://github.com/catppuccin/kde) and [cursors](https://github.com/catppuccin/cursors).__
+__You may want to install [Catppuccin](https://catppuccin.com) for things like [Plasma](https://github.com/catppuccin/kde) and [cursors](https://github.com/catppuccin/cursors).__
 
 ## Things that aren't present
 - Plasma panels

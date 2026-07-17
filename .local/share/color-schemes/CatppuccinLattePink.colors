@@ -32,6 +32,7 @@ ForegroundNormal=76, 79, 105
 ForegroundPositive=64, 160, 43
 ForegroundVisited=136, 57, 239
 
+
 [Colors:Complementary]
 BackgroundAlternate=220, 224, 232
 BackgroundNormal=230, 233, 239
@@ -45,6 +46,7 @@ ForegroundNeutral=223, 142, 29
 ForegroundNormal=76, 79, 105
 ForegroundPositive=64, 160, 43
 ForegroundVisited=136, 57, 239
+
 
 [Colors:Header]
 BackgroundAlternate=220, 224, 232
@@ -60,19 +62,21 @@ ForegroundNormal=76, 79, 105
 ForegroundPositive=64, 160, 43
 ForegroundVisited=136, 57, 239
 
+
 [Colors:Selection]
 BackgroundAlternate=234, 118, 203
 BackgroundNormal=234, 118, 203
 DecorationFocus=234, 118, 203
 DecorationHover=188, 192, 204
-ForegroundActive=17, 17, 27
 ForegroundInactive=17, 17, 27
+ForegroundActive=17, 17, 27
 ForegroundLink=17, 17, 27
 ForegroundNegative=17, 17, 27
 ForegroundNeutral=17, 17, 27
-ForegroundNormal=220,224,232
+ForegroundNormal=17, 17, 27
 ForegroundPositive=17, 17, 27
 ForegroundVisited=17, 17, 27
+
 
 [Colors:Tooltip]
 BackgroundAlternate=220, 224, 232
@@ -88,6 +92,7 @@ ForegroundNormal=76, 79, 105
 ForegroundPositive=64, 160, 43
 ForegroundVisited=136, 57, 239
 
+
 [Colors:View]
 BackgroundAlternate=230, 233, 239
 BackgroundNormal=239, 241, 245
@@ -101,6 +106,7 @@ ForegroundNeutral=223, 142, 29
 ForegroundNormal=76, 79, 105
 ForegroundPositive=64, 160, 43
 ForegroundVisited=136, 57, 239
+
 
 [Colors:Window]
 BackgroundAlternate=220, 224, 232
@@ -116,14 +122,17 @@ ForegroundNormal=76, 79, 105
 ForegroundPositive=64, 160, 43
 ForegroundVisited=136, 57, 239
 
+
 [General]
 ColorScheme=CatppuccinLattePink
 Name=Catppuccin Latte Pink
 accentActiveTitlebar=false
 shadeSortColumn=true
 
+
 [KDE]
 contrast=4
+
 
 [WM]
 activeBackground=239, 241, 245
