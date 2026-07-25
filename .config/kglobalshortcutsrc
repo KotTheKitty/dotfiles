@@ -68,6 +68,11 @@ Reboot Without Confirmation=none,none,Redémarrer sans confirmation
 Shut Down=none,none,Éteindre
 _k_friendly_name=Gestion de sessions
 
+[ktorrent]
+_k_friendly_name=KTorrent
+queue_suspend=Alt+Shift+P,Alt+Shift+P,Mettre en pause les torrents
+show_kt=Alt+Shift+T,Alt+Shift+T,Afficher/Cacher KTorrent
+
 [kwin]
 Activate Window Demanding Attention=Meta+Ctrl+A,Meta+Ctrl+A,Activer une fenêtre réclamant de l'attention
 ClearLastMouseMark=Meta+Shift+Z,Meta+Shift+F12,Effacer la dernière marque de souris
@@ -83,6 +88,7 @@ ExposeClassCurrentDesktop=none,none,Basculer les fenêtres courantes (Classe de 
 Grid View=Meta+G,Meta+G,Basculer vers l'affichage en grille
 Increase Opacity=none,none,Augmenter l'opacité de la fenêtre active de 5 %
 Kill Window=Meta+Ctrl+Esc,Meta+Ctrl+Esc,Détruire une fenêtre
+Mobile Task Switcher=Meta+C,none,Toggle Mobile Task Switcher
 Move Tablet to Next LogicalOutput=none,none,Déplacer la tablette vers la prochaine sortie
 MoveMouseToCenter=Meta+F6,Meta+F6,Déplacer la souris au centre
 MoveMouseToFocus=Meta+F5,Meta+F5,Déplacer la souris vers le focus
@@ -145,6 +151,7 @@ Switch to Screen to the Left=none,none,Basculer vers l'écran sur la gauche
 Switch to Screen to the Right=none,none,Basculer vers l'écran sur la droite
 Toggle Night Color=none,none,Suspendre /Poursuivre l'utilisation de la couleur de nuit
 Toggle Window Raise/Lower=none,none,Passer une fenêtre au-dessus / en dessous
+TrackMouse=none,none,Suivre la souris
 Walk Through Windows=Alt+Tab\tMeta+Tab,Alt+Tab\tMeta+Tab,Naviguer parmi les fenêtres
 Walk Through Windows (Reverse)=Alt+Shift+Tab\tMeta+Shift+Tab,Alt+Shift+Tab\tMeta+Shift+Tab,Naviguer parmi les fenêtres (en ordre inverse)
 Walk Through Windows Alternative=none,none,Naviguer parmi les alternatives de fenêtres
@@ -336,7 +343,6 @@ _launch=Search\tAlt+Space\tAlt+F2\tMeta+R
 ActiveWindowScreenShot=Ctrl+Print
 CurrentMonitorScreenShot=Shift+Print
 FullScreenScreenShot=Ctrl+Shift+Print
-OpenWithoutScreenshot=none
 RecordRegion=Meta+Print
 RecordScreen=Meta+Shift+Print
 RecordWindow=Meta+Ctrl+Print

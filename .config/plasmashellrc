@@ -2,11 +2,7 @@
 Number of Actions=0
 
 [PIMEventsPlugin]
-calendars=6,9,22,23,24,25,26,27,32,33,34,35,36,37
-
-[PlasmaTransientsConfig]
-popupHeight=451
-popupWidth=810
+calendars=6,9,22,23,24,25,26,27,32,33,34,35,36,37,46,47,48,49
 
 [PlasmaViews][Panel 317]
 alignment=132
