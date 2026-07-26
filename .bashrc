@@ -16,6 +16,7 @@ alias paccache='sudo pacman -Scc'
 alias cd='z'
 alias sps='sudo pacman -S'
 alias sctl='sudo systemctl'
+alias ports='sudo ss -tulpn'
 
 #PS1='\A =\u@\h= \w \$ '
 PS2='> '
