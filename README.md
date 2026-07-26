@@ -9,7 +9,7 @@ Some paths are absolute due to incompatibility (such as in hyprqt6engine.conf). 
 __You may want to install [Catppuccin](https://catppuccin.com) for things like [Plasma](https://github.com/catppuccin/kde) and [cursors](https://github.com/catppuccin/cursors).__
 
 ## Things that aren't present
-- Plasma panels
+- Plasma panels (partially present in the look-and-feel themes)
 
 ## Current Environment: Plasma 6 (Wayland)
 
