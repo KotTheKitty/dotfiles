@@ -37,7 +37,7 @@ alignment=1
 floating=1
 panelLengthMode=1
 panelOpacity=2
-panelVisibility=2
+panelVisibility=0
 shell=org.kde.plasma.desktop
 
 [PlasmaViews][Panel 343][Defaults]
@@ -51,7 +51,7 @@ alignment=2
 floating=1
 panelLengthMode=1
 panelOpacity=2
-panelVisibility=2
+panelVisibility=0
 shell=org.kde.plasma.desktop
 
 [PlasmaViews][Panel 348][Defaults]
@@ -65,7 +65,7 @@ alignment=132
 floating=1
 panelLengthMode=1
 panelOpacity=2
-panelVisibility=2
+panelVisibility=0
 shell=org.kde.plasma.desktop
 
 [PlasmaViews][Panel 366][Defaults]
@@ -79,7 +79,7 @@ alignment=132
 floating=0
 panelLengthMode=0
 panelOpacity=2
-panelVisibility=2
+panelVisibility=0
 shell=org.kde.plasma.desktop
 
 [PlasmaViews][Panel 368][Defaults]

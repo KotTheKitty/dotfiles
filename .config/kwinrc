@@ -42,7 +42,15 @@ desktopchangeosdEnabled=true
 gamecontrollerEnabled=true
 magiclampEnabled=true
 mousemarkEnabled=true
+mousetilerEnabled=true
 squashEnabled=false
+sticky-window-snappingEnabled=false
+
+[Script-mousetiler]
+popupLayout=1x1\n2x1\n3x1\n20,0,60,100+0,0,20,100+80,0,20,100\n1x2\n1x3\nSPECIAL_SPLIT_HORIZONTAL\n0,0,75,100+25,0,75,100+25,0,50,100\n4x1\n2x2\nSPECIAL_FILL\n3x2\nSPECIAL_AUTO_TILER_1\nSPECIAL_AUTO_TILER_2\nSPECIAL_AUTO_TILER_3
+rememberTiler=true
+showHintHint=false
+tileMargin=20
 
 [Tiling][a9bc7387-9dd0-51a9-bb00-e260174b41c1]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -106,7 +114,7 @@ EnablePrimarySelection=false
 InputMethod[$e]=/usr/share/applications/org.kde.plasma.keyboard.desktop
 
 [Windows]
-CenterSnapZone=20
+CenterSnapZone=50
 DelayFocusInterval=1000
 ElectricBorderCooldown=250
 ElectricBorderDelay=0
