@@ -4,7 +4,7 @@
     {
       "Tablet": "Wacom CTL-4100",
       "OutputMode": {
-        "Path": "OpenTabletDriver.Desktop.Output.AbsoluteMode",
+        "Path": "OpenTabletDriver.Desktop.Output.LinuxArtistMode",
         "Settings": [],
         "Enable": true
       },
@@ -342,12 +342,12 @@
               "Value": 1.0
             },
             {
-              "Property": "Frequency",
-              "Value": 1000.0
+              "Property": "TiltSmoothingFactor",
+              "Value": 1.0
             },
             {
-              "Property": "TiltSmoothingFactor",
-              "Value": 5.0
+              "Property": "Frequency",
+              "Value": 1000.0
             }
           ],
           "Enable": false
@@ -391,19 +391,19 @@
           "Settings": [
             {
               "Property": "OuterRadius",
-              "Value": 20.0
+              "Value": 5.0
             },
             {
               "Property": "InnerRadius",
-              "Value": 10.0
+              "Value": 0.0
             },
             {
               "Property": "SmoothingCoefficient",
-              "Value": 0.1
+              "Value": 0.95
             },
             {
               "Property": "SoftKneeScale",
-              "Value": 0.0
+              "Value": 1.0
             },
             {
               "Property": "SmoothingLeakCoefficient",
@@ -481,11 +481,27 @@
           "Enable": false
         },
         {
-          "Path": "Kuuube_s_Chatter_Exterminator.Kuuube_s_CHATTER_EXTERMINATOR_SMOOTH",
+          "Path": "RadialFollow.RadialFollowSmoothingTabletSpace",
           "Settings": [
             {
-              "Property": "Chatter_Extermination_Strength",
-              "Value": 50.0
+              "Property": "OuterRadius",
+              "Value": 1.0
+            },
+            {
+              "Property": "InnerRadius",
+              "Value": 0.0
+            },
+            {
+              "Property": "SmoothingCoefficient",
+              "Value": 0.95
+            },
+            {
+              "Property": "SoftKneeScale",
+              "Value": 1.0
+            },
+            {
+              "Property": "SmoothingLeakCoefficient",
+              "Value": 0.0
             }
           ],
           "Enable": false
@@ -501,27 +517,11 @@
           "Enable": false
         },
         {
-          "Path": "RadialFollow.RadialFollowSmoothingTabletSpace",
+          "Path": "Kuuube_s_Chatter_Exterminator.Kuuube_s_CHATTER_EXTERMINATOR_SMOOTH",
           "Settings": [
             {
-              "Property": "OuterRadius",
-              "Value": 1.0
-            },
-            {
-              "Property": "InnerRadius",
-              "Value": 1.0
-            },
-            {
-              "Property": "SmoothingCoefficient",
-              "Value": 0.1
-            },
-            {
-              "Property": "SoftKneeScale",
-              "Value": 0.0
-            },
-            {
-              "Property": "SmoothingLeakCoefficient",
-              "Value": 0.0
+              "Property": "Chatter_Extermination_Strength",
+              "Value": 6.0
             }
           ],
           "Enable": false
@@ -529,22 +529,22 @@
       ],
       "AbsoluteModeSettings": {
         "Display": {
-          "Width": 2560.0,
-          "Height": 1440.0,
-          "X": 2330.0,
-          "Y": 720.0,
+          "Width": 2133.0,
+          "Height": 1200.0,
+          "X": 2116.5,
+          "Y": 1800.0,
           "Rotation": 0.0
         },
         "Tablet": {
-          "Width": 80.0,
+          "Width": 79.9875,
           "Height": 45.0,
           "X": 76.0,
-          "Y": 25.0,
+          "Y": 30.0,
           "Rotation": 0.0
         },
         "EnableClipping": false,
         "EnableAreaLimiting": false,
-        "LockAspectRatio": false
+        "LockAspectRatio": true
       },
       "RelativeModeSettings": {
         "XSensitivity": 10.0,
@@ -575,12 +575,12 @@
                 "Value": "Vertical"
               },
               {
-                "Property": "Interval",
-                "Value": 100
-              },
-              {
                 "Property": "Amount",
                 "Value": -120
+              },
+              {
+                "Property": "Interval",
+                "Value": 250
               }
             ],
             "Enable": true
@@ -593,12 +593,12 @@
                 "Value": "Vertical"
               },
               {
-                "Property": "Interval",
-                "Value": 100
-              },
-              {
                 "Property": "Amount",
                 "Value": 120
+              },
+              {
+                "Property": "Interval",
+                "Value": 250
               }
             ],
             "Enable": true
@@ -630,7 +630,7 @@
             "Settings": [
               {
                 "Property": "Key",
-                "Value": "O"
+                "Value": "I"
               }
             ],
             "Enable": true
@@ -656,7 +656,7 @@
       }
     }
   ],
-  "LockUsableAreaDisplay": true,
-  "LockUsableAreaTablet": true,
+  "LockUsableAreaDisplay": false,
+  "LockUsableAreaTablet": false,
   "Tools": []
 }

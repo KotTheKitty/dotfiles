@@ -36,3 +36,6 @@ export PATH="$PATH:/home/kot/.local/bin"
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/kot/.lmstudio/bin"
 # End of LM Studio CLI section
+
+# Unity CLI
+case ":${PATH}:" in *:"$HOME/.local/bin":*) ;; *) export PATH="$HOME/.local/bin:$PATH" ;; esac

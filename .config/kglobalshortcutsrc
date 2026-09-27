@@ -48,7 +48,7 @@ decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Diminuer le volume de 
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Augmenter le volume du microphone
 increase_volume=Volume Up,Volume Up,Augmenter le volume
 increase_volume_small=Shift+Volume Up,Shift+Volume Up,Augmenter le volume de 1 %
-mic_mute=Microphone Mute\tMeta+Volume Mute\tMeta+Alt+M\tMeta+Alt+Del,Microphone Mute\tMeta+Volume Mute,Couper le son du microphone
+mic_mute=Microphone Mute\tMeta+Del\tMeta+Volume Mute\tMeta+Alt+M\tMeta+Alt+Del,Microphone Mute\tMeta+Volume Mute,Couper le son du microphone
 mute=Volume Mute\tMeta+Alt+Up,Volume Mute,Muet
 push_to_talk=none,none,Appuyer pour parler
 
@@ -319,6 +319,10 @@ activate widget 218=none,none,Activer le composant graphique Gestionnaire de bur
 activate widget 245=none,none,Activer le composant graphique Menu global
 activate widget 254=none,none,Activer le composant graphique Gestionnaire de tâches uniquement par icônes
 activate widget 255=none,none,Activer le composant graphique Menu des applications
+activate widget 410=none,none,Activer le composant graphique Horloge numérique
+activate widget 411=none,none,Activer le composant graphique Lanceur d'application
+activate widget 444=none,none,Activer le composant graphique Lanceur d'application
+activate widget 445=none,none,Activer le composant graphique Lanceur d'application
 clear history=none,none,Effacer l'historique des notifications
 clear-history=none,none,Effacer l'historique du presse-papier
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Menu contextuel automatique d'action :
@@ -344,7 +348,7 @@ _launch=Ctrl+Alt+T\tMeta+Return
 _launch=Meta+Alt+Shift+G
 
 [services][net.local.xdg-open-3.desktop]
-_launch=Meta+Alt+Shift+E
+_launch=none
 
 [services][net.local.xdg-open-4.desktop]
 _launch=Meta+Alt+Shift+Y

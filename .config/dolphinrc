@@ -4,7 +4,7 @@ Version=202
 ViewPropsTimestamp=2026,5,22,18,23,22.51
 
 [IconsMode]
-PreviewSize=176
+PreviewSize=112
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -12,6 +12,9 @@ Places Icons Static Size=16
 
 [MainWindow]
 MenuBar=Disabled
+
+[Notification Messages]
+ConfirmRenameFileType=false
 
 [PlacesPanel]
 IconSize=16
