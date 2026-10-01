@@ -10,6 +10,7 @@ __You may want to install [Catppuccin](https://catppuccin.com) for things like [
 
 ## Things that aren't present
 - Plasma panels (partially present in the look-and-feel themes)
+- The icon theme (it is obtainable using the built-in store in Plasma's settings)
 
 ## Current Environment: Plasma 6 (Wayland)
 
