@@ -21,8 +21,8 @@ Previous Environments:
 
 ```
 kitty
-floorp-bin (AUR)
 kde-applications-meta
+fooyin
 
 plasma-meta
 ```
